@@ -6,51 +6,74 @@ This VSA-QA Process is currently a subset of the base-process as defined by VSP 
 
 ## Process Flow
 
+![VSA-QA Process Flowchart][flowchart]
+
+## Process Steps
+
 The required steps of the VSA-QA Process are as follows:
 
-1. At start of Design phase, **Engineering Team creates VSA-QA Test Plan ticket** \[use the VSA QA Test Plan Issue Template]:
-    - Assign ticket to your **Engineering Team Product/Project Manager**
-    - Add **vsa-qa** label
-    - Add link to Epic ticket
-    - Add link to Pre-Launch Checklist \(or ensure Epic ticket has this link) \[See [Product Development Checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/d210639376918e687efdeda9445199985783c487/platform/working-with-vsp/onboarding/Product%20Development%20Checklist.md) for checlist guidelines]
-    - Ensure that Test Plan includes documentation of (or links to):
-        - UX Design comps
-        - User scenarios/stories
+### 1. VSA Product Team gives advance notice
 
-1. With help from Engineering Team Subject Matter Experts (SMEs), **VSA-QA establishes understanding of new product/feature**: discover how to test the changes being tackled in your sprint. \[As stated above, VSA-QA currently handles only manual UI testing on Staging.]
-    - What kind of testing is relevant given the changes?
-        - Unit tests (by Front-End Developer)
-        - Automated E2E tests (by Front-End/Full-Stack Developer)
-        - Manual testing (by VSA-QA)
-        - 508 (by Accessibility (A11y) Specialist)
-        - UAT (by real Users)
-        - Beta testing (by real Users)
+During new product/feature's **Build phase** (minimum **2-3 Sprints before** manual UI testing on Staging is needed), **VSA Product Manager** adds **vsa-qa** label to product/feature **Epic**.  This makes the Epic visible on VSA-QA's ZenHub board, and provides enough lead time for VSA-QA to understand product/feature, develop Test Plan, and create test-cases.
 
-1. **VSA-Engineering & VSA-QA collaborate to create a test plan** that ensures coverage of the targeted changes as well as any possible regressions caused by your team's changes.
-    - Build the plan directly inside the Test Plan ticket created in Step 1, or link ticket to separate plan document.
-    - [Sample Test Plan](https://docs.google.com/document/d/10dYOWyHSTGB_gKiPZSdcdq6fwjrlRhBsK3yUIyS3Gc0) for reference
+### 2. VSA-QA understands product/feature
 
-1. **VSA-QA create manual UI-test cases** as you build.  VSA Designers/Developers (especially UX-Design member) & VSA-QA should start collaboration early, so as to ensure all testable scenarios have matching test cases. 
-    - [Sample Test Case Template](https://drive.google.com/open?id=1Tkim8srrMdDMztG0Du_yZ60DYgVOJPLk)
-    - We recommend that you create and execute manual test cases for core user journeys in your product.
-    - Optionally, you may use any test case tracking tool / method that works for your team.  Please keep in mind that you will be expected to export test cases and test case execution logs.
-    - A single user story may require several test cases in order to provide full coverage.
+With help from **VSA Product Team** subject matter experts (SMEs), **VSA-QA** establishes understanding of new product/feature \[VSA-QA currently handles only manual UI testing on Staging.]
 
-1. **Engineers & VSA-QA executes tests**:
-    1. Build phase - Front-End (and/or Full-Stack) Developers will have created & run local unit-/e2e-tests during development.  These tests are also automatically run upon Pull-Request creation, and merging is disabled until all pass.
-    2. Validate phase (once changes are deployed to Staging):
-        1. A11y Specialist performs accessibility tests.
-        2. VSA-QA performs manual tests\*.
-    3. Log defects.
-    4. Iterate until bugfixes are validated, and product/feature is deemed deployable to Production.
+### 3. VSA-QA opens Test Plan ticket
 
-1. **Engineers & VSA-QA report test-results** at the end of development:
-    - Submit results to the VSP Product Support Team by sharing them in #vsp-product-support Slack channel. You may either attach the documents to the channel, or provide shareable links to documents stored in the cloud.
-    - Expected deliverables include:
-        1. Test plan with test-results added/linked \[[see sample](https://docs.google.com/document/d/10dYOWyHSTGB_gKiPZSdcdq6fwjrlRhBsK3yUIyS3Gc0)]
-        1. QA Manual Testing Matrix \[[see sample](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/qa/QA_Testing_Matrix_Template.xlsx)], to be attached to both Issues & PR.
+**VSA-QA Engineer** opens [Test Plan ticket][test-plan-tic]\* \[use the VSA QA Test Plan Issue Template]:
+
+* Assign to appopriate QA Engineer
+* Add **vsa-qa** label
+* Attach to Epic
+* Add link to Pre-Launch Checklist \(or ensure Epic ticket has this link) \[See [Product Development Checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/d210639376918e687efdeda9445199985783c487/platform/working-with-vsp/onboarding/Product%20Development%20Checklist.md) for checlist guidelines]
+
+### 4. VSA Product Team & VSA-QA build Test Plan
+
+As Build phase progresses, **VSA Product Team & VSA-QA** collaborate to ensure that Test Plan includes documentation of (or links to):
+
+* Product/feature Epic
+* Product outline
+* UX Design wireframes & comps
+* User stories/scenarios/flows
+* Staging test-accounts
 
 
+### 5. VSA Product Team & VSA-QA develop test-cases
+
+As Build Phase progresses, VSA Designers, Engineers, & VSA-QA develop manual UI test-cases:
+
+* **VSA-QA** creates manual UI test cases:
+  * **VSA Product Team** (PM and/or UX Design/Research) helps ensure all testable user scenarios/flows are covered.
+  * **VSA Engineers** help ensure the steps in each test-case.
+
+### 6. VSA-QA conducts testing\*\*
+* **Build Phase**:
+  * **Front-End (and/or Full-Stack) Developers** should already have created & run local unit-/e2e-tests during Build Phase.  These tests are also automatically run when Pull Requests (PRs) are opened, and merges are disabled until they all have passed.
+* **Validate Phase** (once changes are deployed to Staging):
+  * A11y Specialist performs accessibility tests.\*\*
+  * VSA-QA performs manual tests\*\*.
+  * Log defects.
+  * Re-iterate as needed/desired, until all acceptance-critical bugfixes are validated.
+
+### 7. Engineers & VSA-QA report test results
+
+* Submit results to the VSP Product Support Team by sharing them in #vsp-product-support Slack channel. Either attach the documents to the channel, or provide shareable links to documents stored in the cloud.
+* Expected deliverables include:
+  * Test plan with test-results added/linked\*
+  * QA Manual Testing Matrix\* \[[see sample](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/engineering/qa/QA_Testing_Matrix_Template.xlsx)], to be linked/attached to Test Plan ticket.
 
 
-\* Re. manual UI testing on Staging by VSA-QA, a change's test-readiness depends upon Staging test-accounts and relevant test-data availability behind Staging API-endpoints.
+
+## Notes
+
+\* Test-plan-ticket details/references will be copied into an official Test Plan in our online TestRail test case management system (TCMS).  VSA Product Teams will share a common TestRail user-account to access & review the online Test Plan and its associated Test Runs/Cases.
+
+\*\* Some QA and A11y testing tasks/subtasks may be assigned to Product Team members.  We currently have only 1 shared QA-resource and 1 shared A11y resource supporting all 8 VSA Product Teams, and anticipate availability challenges until staffing increases.
+
+\*\*\* Re. manual UI testing on Staging by VSA-QA, a change's test-readiness depends upon Staging test-accounts and relevant test-data availability behind Staging API-endpoints.
+
+
+[flowchart]: images/vsa-qa-process-flow.png
+[test-plan-tic]: https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?&template=vsa-qa-test-plan.md

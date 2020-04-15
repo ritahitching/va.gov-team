@@ -1,6 +1,6 @@
 ## PostSubmit686
 
-| EVSS Step                         | BGS Service (If Applicable) | Description |
+| EVSS Step                         | BGS Service (If Applicable) | Description/Notes |
 | --------------------------------- | --------------------------- |-------------|
 | readStep686                       |                             |             |
 | documentSyncInflight              |                             |             |
@@ -21,10 +21,10 @@
 | noOp                              |                             |             |
 |                                   |                             |             |
 | **FLOW**                          |                             |             |
-| email686Message                   |                             |             |
+| email686Message                   |                             | Note: VA.gov does not currently have send email capability |
 |                                   |                             |             |
 | **FLOW**                          |                             |             |
-| messageCenter686                  |                             |             |
+| messageCenter686                  |                             | Puts a notification in the eBenefits notification center - this will be skipped for now as VA.gov does not currently have notifications |
 |                                   |                             |             |
 | **FLOW**                          |                             |             |
 | vnp686AppDelete                   |                             |             |
@@ -38,7 +38,9 @@
 | vnp686StudentCreate               | vnpChildStudentCreate       |             |
 | vnp686SchoolCreate                | vnpChildSchoolCreate        |             |
 | vnp686RelationshipCreate          | vnpPtcpntRlnshpCreate       | This service is used to create VONAPP participant relationship information  |
-| vnp686Benefit                     |                             |             |
+| vnp686Benefit                     | vnpBnftClaimCreate          | This service is used to create VONAPP benefit claims information |
+|                                   | insertBenefitClaim          | Performs a C&P Benefit Claim Establishment |
+|                                   | vnpBnftClaimUpdate          | This service is used to update VONAPP benefit claims information |
 | vnp686Attachment                  |                             |             |
 | vnp686ProcUpdate                  | vnpProcUpdate               | This service is used to update the VONAPP process information |
 | vnp686MapperUpdate                |                             |             |

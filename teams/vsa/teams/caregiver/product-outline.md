@@ -15,7 +15,6 @@
 - [Assumptions](#assumptions)
 - [Requirements and Constraints](#requirements-and-constraints)
 - [Discovery Takeaways](#discovery-takeaways)
-- [Solution Approach](#solution-approach)
 - [Value Propositions](#value-propositions)
 - [KPIs](#kpis)
 
@@ -71,13 +70,6 @@ As a caregiver, it's difficult to apply for and manage benefits from the Program
 - Mutliple online sources offer conflicting information
 - Caregivers like the idea of having an online portal to access support, resources, and benefit information
 
-## Solution Approach
-- Phase 1: Form MVP
-- Phase 2: Webpage MVP
-- Phase 3: Caregiver Portal
-- Continuous: Prioritization, definition, discovery, validation, iteration
-
-
 ## Value Propositions
 
 #### User Value
@@ -105,9 +97,38 @@ As a caregiver, it's difficult to apply for and manage benefits from the Program
 - As of January 2020, we're focused on launching the MVP of the form
 
 ## Solution Narrative
-- **Future, Q1 2020**: Launch form MVP
-- **Future, Q2 2020**: Start on redesign of online PFCAC pages
-- **Future, Q3 2020**: Start work on Caregiver Portal
+
+**Pre-May 31st**
+- Unauthenticated form
+- Two signatures (printed names onto online form)
+- Form intro page
+- Downloadable submission receipt
+- Return ICN number for veteran and caregiver (if applicable)
+- Obtain static list of approved Caregiver facilities from CARMA
+- Create table in vets-api to link CARMA ID to form submission (+ date)
+
+** **May 31st - Launch online, unauthenticated 1010CG application experience to CSCs** **
+
+** **June 30th - Publish/market online, unauthenticated 1010CG application experience** **
+
+**Post-June 30th**
+- Ability to attach Power of Attorney documentation
+- Attach prefilled 1010CG PDF to CARMA application
+- Prevent identical applications sent back-to-back
+- Allow Veteran/Caregiver to track application status
+- To support Caregiver program in its expansion and reduce number of phone calls asking status question
+- Options:
+  - Use application ID number to query for status update
+  - Work with MPI to return status there
+
+**Future, Phase 2**: 
+- Webpage MVP, Redesign of online PFCAC pages
+
+**Future, Phase 3**: 
+- Caregiver Portal - benefits after the application
+
+**Future, TBD**:
+- Facilities API as a source of truth
 
 ## How to Access and Test
 - Link: tbd

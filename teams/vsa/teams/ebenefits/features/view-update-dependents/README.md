@@ -1,18 +1,22 @@
-# View and Update Dependents
+# View dependents & Add or change dependents
 `WIP`
 - GitHub Label: [vsa-ebenefits](https://github.com/department-of-veterans-affairs/va.gov-team/#workspaces/vft-59c95ae5fda7577a9b3184f8/board?labels=vsa-ebenefits&repos=133843125&showPipelineDescriptions=false)
 - Slack channel: #vsa-ebenefits
-- Old links: 
-  - [View Dependents - http://www.ebenefits.va.gov/ebenefits/dependents](http://www.ebenefits.va.gov/ebenefits/dependents)  
-  - [Update Dependents - http://www.ebenefits.va.gov/ebenefits/vdc?target=/wssweb/wss-686-webparts/dependent.do](http://www.ebenefits.va.gov/ebenefits/vdc?target=/wssweb/wss-686-webparts/dependent.do)  
-- Staging link: https://staging.va.gov/disability/view-dependents/
-- va.gov link: tbd
-- [Previous team's work](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent)  
-- [Current Mockup](https://xd.adobe.com/view/852342af-36f7-41b6-7e04-29c9ca8b210e-f312/screen/f4c5fb1f-44c1-4692-b3e9-e3fad4cfdab3/Dependents-Concept-1)
+- Old links ([Previous team's work](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent)): 
+  - [View Dependents](http://www.ebenefits.va.gov/ebenefits/dependents)  
+  - [Update Dependents](http://www.ebenefits.va.gov/ebenefits/vdc?target=/wssweb/wss-686-webparts/dependent.do)  
+- Staging links: 
+  - [View dependents](https://staging.va.gov/disability/view-dependents/)
+  - [Add or change dependents](https://staging.va.gov/disability-benefits/new-686/) _WIP link, to be updated_  
+- VA.gov link: 
+  - [Static landing page for dependents](https://www.va.gov/view-change-dependents)
+  - [View dependents](https://www.va.gov/view-change-dependents/view)
+  - [Add or change dependent](www.va.gov/view-change-dependents/add-remove-form-686c/)
+- [Current Mockups](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design)
 
-### Table of Contents
+## Table of Contents
 
-# Executive Summary
+### Executive Summary
 - [Abstract](#abstract)
 - [User Problem Statement](#user-problem-statement)
 - [Solution Goals](#solution-goals)
@@ -21,9 +25,9 @@
 - [Discovery Takeaways](#discovery-takeaways)
 - [Solution Approach](#solution-approach)
 - [Value Propositions](#value-propositions)
-- [KPIs](#kpis)
+- [KPIs](#okrs--kpis)
 
-# Implementation Information
+### Implementation Information
 - [Status](#status)
 - [Solution Narrative](#solution-narrative)
 - [Team](#team)
@@ -47,7 +51,7 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 
 ## User Problem Statement
 
-- I am a Veteran who needs to review and update information about my family and other dependents, so that my family can receive the benefits that I have earned. The paper forms are complicated and frustrating, and sending them off to the VA without any feedback makes me anxious that I might have done something wrong.
+I am a Veteran who needs to review and update information about my family and other dependents, so that my family can receive the benefits that I have earned. The paper forms are complicated and frustrating, and sending them off to the VA without any feedback makes me anxious that I might have done something wrong.
 
 ## Solution Goals
 
@@ -88,6 +92,9 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 - Is it necessary that the forms be PDFed and uploaded to eFolder? Need research.
 - TODO: Add more
 
+## Discovery Takeaways
+A [research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design/686-form-gating-0220/686-usability-research-plan.md) was put together and a series of usability sessions was scehduled and conducted.  A resulting [summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design/686-form-gating-0220/686-usability-analysis.md) and more official readout can be found [here](https://dsva.slack.com/archives/CLY6Q69RV/p1583446780067800?thread_ts=1583352659.066300&cid=CLY6Q69RV).
+
 ## Solution Approach
 
 - Connect with "Rainbows" team members about 686c research and findings
@@ -127,9 +134,14 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 - KR1: Data shows that more 686 applications are being automatically approved within the Rules Based PRocessing Service; RBPS is automatically processing statistically significantly more 686 applications 
 - KR2: Data shows that the new 686 user experience within VA.gov results in a faster fill out time compared to the eBenefits portal
 
-**Objective 2:** Increased conversion rate of successful, automatically approved forms.
+**Objective 3:** Increased conversion rate of successful, automatically approved forms.
 - KR1: Data shows that RBPS is automatically approving more 686 forms upon submission compared to previous instance
 - KR2: Data shows that the payload has been improved resulting in more accurate applications making it easier to approve if not done by RBPS (for some reason)
+
+### Considerations  
+**Objective 4:** Convert more through RBPS  
+**Objective 5:** Enhance communication between form and Veteran  
+**Objective 6:** Change structure to allow for minimal Veteran overhead/ impact  
 
 
 ---
@@ -146,7 +158,7 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 - October & November: Research and design mockups
 - December & January: Work with previous teams (rainbows) code and schemas
 - February: Restart code development from scratch using rainbows schemas as high level guide, build out the different workflows
-- March: Continue building out workflows, start thinking about how to get the different sections to work together, connect backend and frontend
+- March: Continue building out workflows, start thinking about how to get the different sections to work together, connect backend and frontend. 
 
 
 ## Team
@@ -158,7 +170,7 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 - Design Lead: Shawna Hein
 - Eng Lead: Paul Short
 - VA Web Comms Partner: 
-- VA Call Center Partner(s): Chante
+- VA Contact Center Partner(s): Chante
 - Production Testing Partner(s):
 - Designer(s): Jim Adams
 - Content Writer(s): None
@@ -178,7 +190,9 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 
 ## Resources and Documentation
 
-- Discovery
+- [Discovery](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/ebenefits/features/view-update-dependents/discovery)
 - [Research and Design](research-design/README.md)
+- [IA Recomendation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/ia-reviews/ebenefits-view-dependents.md) for View Dependents
+- Link to [Request for IA Review for Add/Remove Dependents](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6636)
 
 

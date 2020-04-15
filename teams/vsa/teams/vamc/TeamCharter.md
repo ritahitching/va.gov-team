@@ -8,7 +8,33 @@ Enable Veterans,their family, and caregivers, through use of the VA's VISN Medic
 Providing these upgraded and streamlined tools to the ALL VAMC system Office of Public Affairs and adminstrators, so that they can efficently support and continualy enable Veterans, their family, and caregivers in their VAMC journey. 
 
 ### VAMC North Star
-Through continued process review and business optimization, work to increase the number of fully upgraded VA Medical Center System Websites, that are turned over to the VAMC for continued administration. 
+Systems published to "pre-prod" per quarter. (Q2 Goal - 8 from VISN 4)
+
+### OKRs 
+
+#### Q1 2020
+- Objective: "Push-button VISN creation"
+  - Key Result: 100% of system components included in package
+    - System components e.g. detail page, facility page, menu
+  - Key Result: Reduce time to finalize and incorporate content for 1 system to less than 1 month
+  
+#### Q2 2020 - Tentative 
+- Objective: "Push-button VISN creation"
+  - Key Result: Reduce time to finalize and incorporate content for *n* systems to less than 1 month
+  
+#### KPIs
+- page scaffolds created in a sprint
+- time to receive complete kick-off package back from PAO
+- pages loaded with data in a sprint 
+- pages loaded with content in a sprint
+
+#### Bets
+- blank package for a system and let that run thru all req checks e.g. 508
+- dropping content into components/fields automatically 
+- dropping content into a content block (create block + drop content in for that block e.g. accordion for parking info)
+- created components + content via a "business-focused" CSV  
+- Stub out 2 future VISNs at a time with their scaffold
+
 
 ## What we work on
 Optimization of content, language, and website structure to improve the website journey.  This includes reduction in page count, word count, and increased percentage of plain language throughout the site. While highlighting Veteran specified "Top Tasks", repetative activities, and web site priorities.

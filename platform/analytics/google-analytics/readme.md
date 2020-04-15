@@ -2,7 +2,7 @@
 
 VA.gov uses the paid tier for Google Analytics, called Google Analytics 360 or GA 360. The premium versions offers a higher tier of data collection and more customizable traits that we can use to measure success. 
 
-The Admins for the VSP Analytics-Insights Team are Joanne Esteban, Nedie Recel, and Jon Wehausen. 
+The Admins for the VSP Analytics-Insights Team are Joanne Esteban, Jon Wehausen, and Brian Martin. 
 
 ### Resources for Google Analytics
 
@@ -36,6 +36,6 @@ After your VSP orientation, please check out these resources:
 
 1. [Understanding Goal Conversions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/analytics/google-analytics/tracking-success-in-analytics.md)
 
-
+2. [Importance of UTM Parameters - Video](https://drive.google.com/drive/folders/1PCFIkdvz6ptFENxrcw59x23OQ1VdWEH_)
 
 

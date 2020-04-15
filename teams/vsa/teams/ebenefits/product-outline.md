@@ -24,8 +24,12 @@
   - [Rated Disabilities, titled as "View your VA combined disability ratings"](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/rated-disabilities/README.md)
   This is a simple view task where the relevant information is pulled from CorpDB via the `vets-api` via EVSS.
   - [View and Modify Dependents](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/ebenefits/features/view-update-dependents)
-  This is a more complicated task that includes both a view and modify task for declaring dependents as they are moved on and off a Veterans awards.
+  This is a more complicated task (Form 21-686c) that includes both a view and submit task for declaring dependents as they are moved on and off a Veterans awards.
+  - [My Payment History](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-payment-history/feature-outline.md)
+   A simple view task that displays the payment and return history between a Veteran and the VA.
   _Features found in the product folder (as opposed to the eBenefits Team folder) are further along in the developemnt and approval process.)
+  - [View and update my representative/POA](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/ebenefits/features/view-update-POA)
+  A simple view task that displays the Veterans representative and form process for modifications.
 
 # Implementation Information
 - [Status](#status)
@@ -44,7 +48,7 @@
 # Executive Summary
 
 ## User Problem Statement
-As a Veteran, I want to find, and apply for, as many benefits available to me so that I can leverage more of the VA's resources.
+eBenefits, in its current legacy state, is no longer the best version of what can be provided to Veterans, their dependents and caregivers, so that they can quickly and easily apply and obtain the benefits they deserve.
 
 ## Solution Goals
 Help Veterans, their dependents and caregivers get the benefits they've earned by transforming, migrating and optimizing critical features and functions from eBenefits to the VA.gov central location.  As such, eBenfits will be sunsetted.
@@ -78,6 +82,14 @@ This team aims to drastically increase the conversion rate of 686c form submissi
 
 ## KPIs
 Once a feature is moved, comparing its exposure and usage will be insightful from its old location to its new location.  Also, looking into how RBPS is impacted will be a large metric as well.
+**Objective 1:** Migrate all features out of eBenefits and into VA.gov
+- Key result #1: `100%` of the functionality is addressed in VA.gov by `Feb 2022`
+- Key result #2: `100%`  (or more) of the traffic present in EBN is shown in VA.gov by `Feb 2022`
+
+**Objective 2:** Improve the Veteran experience for these features
+- - Key result #1: Error handling covers `100%` of known issues
+- - Key result #2: Language used is friendly and informative over `100%` of features managed by this team
+- - Key result #3: A clear path forward for gaining additional information is present over `100%` of features managed by this team
 
 ---
 
@@ -120,7 +132,7 @@ eBenefits, rated disabilities, dependents, 21-686c, 686c, 686
 ## Team
 - DSVA Product Manager: Steve Kovacs
 - Team Product Manager: Jason Wolf
-- VA Call Center Partner(s): TBD
+- VA Contact Center Partner(s): TBD
 - UX Designer: Aricka Lewis
 - Designer/Reseearcher: James Adams
 - Front-end Engineer: Micah Chiang

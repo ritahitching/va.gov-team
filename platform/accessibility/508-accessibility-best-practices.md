@@ -1,5 +1,3 @@
-__Please note: some links in this document point to the vets.gov-team repo.__
-
 # 508, Accessibility, and Inclusive Design Best Practices
 
 **Table of Contents**
@@ -13,6 +11,8 @@ __Please note: some links in this document point to the vets.gov-team repo.__
     - [Build Pipeline Requirements](#build-pipeline-requirements)
   - [Manual Accessibility/508 Testing](#manual-accessibility-testing)
     - [Color Tests](#color-tests)
+      - [Color Contrast](#color-contrast)
+      - [Colorblindness](#colorblindness)
     - [Zoom to 400%](#zoom-to-400)
     - [Keyboard Navigation](#keyboard-navigation)
     - [Screen Readers](#screen-readers)
@@ -84,15 +84,26 @@ When you push your code to a feature branch or merge to master, the automated bu
 
 ### Color Tests
 
+#### Color Contrast
 - [Formation design system color palette](https://design.va.gov/design/color-palette) has been tested to ensure compliance and usability.
 - Designers should check color pairings during visual design sprints, especially:
     - White text on yellow, orange, red
     - Black text on darker blues, purples
     - Gray text on white or textured backgrounds.
-- Sketch plugins for designers to test deliverables in progress:
-    - [Sketch Color Contrast Analyzer](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
+- Check color contrast ratios of deliverables in progress:
+    - [Who Can Use](https://whocanuse.com/) is a great resource for previewing text for contrast and readability
+    - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+    - [Tanaguru Contrast Finder](https://contrast-finder.tanaguru.com/)
     - [Stark - Color Contrast and Color Blindness Plugin](http://www.getstark.co/)
+#### Colorblindness
+- [Color blindness: how to design an accessible user interface](https://uxdesign.cc/color-blindness-in-user-interfaces-66c27331b858)
 - Check for colorblindness issues in live sites using the [Chrome Colorblinding plugin](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa?hl=en)
+    - Ensure [color is not the only means to distinguish links](https://www.w3.org/TR/WCAG20-TECHS/F73.html) from standard text.
+      - Consider underlining links, especially in paragraph blocks.
+      - Check that links maintain a [3:1 color contrast ratio](https://www.w3.org/TR/WCAG20-TECHS/G183.html) if not underlined
+      - Consider typefaces, font weight, and iconography as third options. Icons will need semantic guides for screen reader users. Example: a download icon is added to links for downloading documents. The accessible title will need to announce this information.
+    - Charts, maps, and tables should convey information without relying on color
+    - Do not use descriptions such as "Click the green button" for calls to action
 
 ### Zoom to 400%
 
@@ -137,11 +148,13 @@ Screen reader testing is mostly a manual process. Consider spot testing with at 
 
 #### Test Pairings:
 
+- [MacOS VoiceOver Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/mac-voiceover-guide.md)
+- [Cross-Platform Screen Reader Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/screenreader-testing-cross-platform.md)
 - [Test using JAWS + IE11 on Win7/10](https://webaim.org/articles/jaws/)
 - [Test using NVDA + Firefox on Win7/10 - VIDEO](https://www.youtube.com/watch?v=Vx1vSd5uYS8)
 - [Test using VoiceOver + Safari on OSX](https://webaim.org/articles/voiceover/)
 
-The flow must be possible to complete on [VA.gov supported browsers](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/request-for-change/browser-support.md) with the most commonly used screenreader(s) (see for example [2017 WebAIM screenreader survey](https://webaim.org/projects/screenreadersurvey7/)):
+The flow must be possible to complete on [VA.gov supported browsers](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/request-for-comment/browser-support.md) with the most commonly used screenreader(s) (see for example [2017 WebAIM screenreader survey](https://webaim.org/projects/screenreadersurvey7/)):
 
   - [ ] User flow must be possible using a keyboard only (no pointing device). See the [WebAIM keyboard accessibility guide](https://webaim.org/techniques/keyboard/) for keyboard strokes.
   - [ ] Windows 7/10: IE11 with JAWS (tested by the Section 508 office)

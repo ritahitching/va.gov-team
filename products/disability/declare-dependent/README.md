@@ -87,6 +87,9 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 - Is it necessary that the forms be PDFed and uploaded to eFolder? Need research.
 - TODO: Add more
 
+## Discovery Takeaways
+A [research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design/686-form-gating-0220/686-usability-research-plan.md) was put together and a series of usability sessions was scehduled and conducted.  A resulting [summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design/686-form-gating-0220/686-usability-analysis.md) and more official readout can be found [here](https://dsva.slack.com/archives/CLY6Q69RV/p1583446780067800?thread_ts=1583352659.066300&cid=CLY6Q69RV).  More can also be found [here](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Disability/Declare%20Dependent%20686#discovery-takeaways)
+
 ## Solution Approach
 
 - Connect with "Rainbows" team members about 686c research and findings
@@ -114,7 +117,20 @@ Migrate this functionality from EBN to the modern front door at VA.gov, conducti
 
 ## KPIs
 
-TBD
+**Objective 1:** Migrate out of eBenefits and into VA.gov
+- Key result #1: `100%` of the functionality is addressed in VA.gov by June 2020
+
+**Objective 2:** Increase the conversion rate of the 686
+- Key result #2: Move conversion rate from `63%` to `75%` within first month of launch to VA.gov
+- Key result #3: Move conversion rate from `75%` to `95%` within first quarter launch to VA.gov
+  - KPI 1: Decrease the number of form submissions with incomplete information by `n%` within first month of launch to VA.gov
+
+**Objective 3:** Increase number of applications submitted
+- Key result #1: Move number of applications from `~12,000` to `~15,000` within first month of launch to VA.gov
+  - _Establish the number and quality of gateway funnels to this feature and increase it_
+
+**Objective 4:** Decrease the approval time for Veterans
+- Key result #1: _It currently takes 10-20 days to process a 686 form manually vs. 1-2 days to process automatically through RBPS_
 
 ---
 
@@ -137,7 +153,7 @@ TBD
 - Design Lead: 
 - Eng Lead:
 - VA Web Comms Partner:
-- VA Call Center Partner(s):
+- VA Contact Center Partner(s):
 - Production Testing Partner(s):
 - Designer(s):
 - Content Writer(s):

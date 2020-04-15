@@ -1,6 +1,6 @@
 # SSO Product Outline
 
-_Last updated February 2020_
+_Last updated April 2020_
 
 #### Communications
 - Team Name: SSO/Login
@@ -9,7 +9,7 @@ _Last updated February 2020_
 - Product PoCs: Lauren Alexanderson
 
 #### Team Members
-- Product: Ambika Roos
+- Product: Alexis James
 - UX: Bridget Hapner
 - Engineering: Patrick Vinograd, Eric Buckley, Dan Hinze
 
@@ -71,13 +71,6 @@ _What we hope to achieve, or enable, through our work. A vision should be ambiti
 Seamless navigation for any user redirected between health tools or benefits housed on multiple platforms (VA.gov, MHV, My VA Health).
 
 
-## North Star Metric
-
-_The key result we will track and hope to see from our work_
-
-1. Reduced re-directs to login pages for authenticated users (likely VA.gov > MHV and VA.gov > eBenefits)
-2. My VA Health?? (Standalone login page and updates to VA.gov Health pages)
-
 
 ## Desired Outcomes
 
@@ -93,10 +86,14 @@ _The key result we will track and hope to see from our work_
 3. Create a standalone, URL-based Login page that acts as the front door for Cerner health tools (and also acts as a landing page for users who decline EULA, do not have an EDIPI record, or who have logged out of Cerner)
 4. Seamless redirects at the appropriate stages for authenticated users who need to move from VA.gov to My VA Health (Cerner) or to MHV from VA.gov health pages: users whose health tools are housed either in MHV or in My VA Health can easily access what they are looking for without needing to understand the intricacies of the difference between each platform
 
-**KPIs (in addition to north star metric)**
+**KPIs**
 
-*   lower traffic to MHV Create Account page and eBenefits login page
-*   reduced bounce rate for MHV Create Account page and eBenefits login page
-*   reduced calls to help desk about login-related issues
+*   Maintain login success rate for MHV users
+*   Maintain login success rate for DSLogon
+*   Maintain login success rate for id.me
 
+# Monitoring
 
+The changes made in the vets-api to support SSOe authentication (v1) have duplicated the same metrics being gathered in the current ID.me implementation (v0).  When an authentication request starts, the controller emits an [api.auth.new stat](https://github.com/department-of-veterans-affairs/vets-api/blob/master/app/controllers/v1/sessions_controller.rb#L27-L28) and upon completion it emits an [successful api.auth.saml_callback stat](https://github.com/department-of-veterans-affairs/vets-api/blob/master/app/controllers/v1/sessions_controller.rb#L178-L181) or [failure api.auth.saml_callback stat](https://github.com/department-of-veterans-affairs/vets-api/blob/master/app/controllers/v1/sessions_controller.rb#L182-L189).
+
+The stats gathered here represent the same user authentication states that we are collecting in the v0 implementation, and thus allow us to reuse the existing [ID.me](https://github.com/department-of-veterans-affairs/devops/blob/master/ansible/deployment/config/prometheus/rules/external_service.rules.j2#L100-L106), [DS Logon](https://github.com/department-of-veterans-affairs/devops/blob/master/ansible/deployment/config/prometheus/rules/external_service.rules.j2#L108-L115) and [MHV](https://github.com/department-of-veterans-affairs/devops/blob/master/ansible/deployment/config/prometheus/rules/external_service.rules.j2#L117-L124) prometheus alert rules to monitor availability/failure rates.

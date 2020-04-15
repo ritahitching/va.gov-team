@@ -10,7 +10,7 @@ _**Note** - content is being moved from the [VSA eBenefits Team folder](https://
 - Staging tool page link: [https://staging.va.gov/disability/view-disability-rating/rating](https://staging.va.gov/disability/view-disability-rating/rating)
 - VA.gov link (WIP): [https://www.va.gov/disability/view-disability-rating](https://staging.va.gov/disability/view-disability-rating)
 - Tool Page (WIP): [https://www.va.gov/disability/view-disability-rating/rating](https://staging.va.gov/disability/view-disability-rating/rating)
-- Demo video link: https://dsva.slack.com/files/ULW9ZB61X/FRTSAK422/rated-disabilities-call-center-walkthrough.mp4
+- Demo video link: [https://slack-files.com/T03FECE8V-F0109N6AQKA-a31ae73df4](https://slack-files.com/T03FECE8V-F0109N6AQKA-a31ae73df4)
 - Product POCs: Steve Kovacs (steve-gov) & Jason Wolf (jason-gcio)
 
 ---
@@ -68,7 +68,7 @@ For the most part, users use Rated Disabilities as intended, to ensure they have
 - Users found the presentation of total and individual disability ratings acceptable. Many participants had favorable impressions of how, and how much, information was displayed.
 - Generally, Veterans were able to locate information and links quickly. Most considered the info presented appropriate in term of content  and amount.
 - Navigation back to the "landing-page" entry point was unclear to many participants. Many participants would opt for other navigational options or simply sign-out rather that return to the landing screen.
-- The most prominent pain points seemed to center around login/authorization, and call center experiences.
+- The most prominent pain points seemed to center around login/authorization, and contact center experiences.
 - The most requested featured included real-time chat, drill-down details for specific disabilities, and specific information regarding the VA disability ratings formula.  
 
 [More information](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/research/disabilities-dependents-usability-1119/disabilities-dependents-usability-summary.md)
@@ -117,7 +117,7 @@ There are a few types of errors depending on the component.  The components shou
 Rated Disbailities uses the `vets-api` via EVSS.
 
 ## Resources and Documentation
-- [Discovery and Research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/ebenefits/research/disabilities-dependents-usability-1119)
+- [Discovery and Research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/research/discovery/research-findings.md)
 - [Technical Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/ebenefits/features/view-rated-disabilities/evss-tcdr)
 - [Product specs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/issue-briefs/profile-rated-disabilities.md)
 - [Design](https://xd.adobe.com/view/0db723ac-52ff-48b3-4877-9d5882cb2e1f-7b86/screen/90b2e033-e56a-4634-91ff-b694b46d2097/RD-Screen-Tool-FINAL)
@@ -137,7 +137,7 @@ eBenefits, rated disabilities, total combined disability rating, claims and appe
 - Design Lead: Shawna
 - Eng Lead: Paul Short (GCIO)
 - VA Web Comms Partner: N/A
-- VA Call Center Partner(s): Chante Lantos-Swett
+- VA Contact Center Partner(s): Chante Lantos-Swett
 - Production Testing Partner(s):
 - Designer(s): James Andrews
 - Content Writer(s):

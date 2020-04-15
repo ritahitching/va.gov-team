@@ -1,3 +1,30 @@
+# 20200325
+
+## Agenda
+- consumer driven contract testing
+- review instances 
+
+## Notes
+
+# 20200226
+
+## Agenda
+- Managing dependencies 
+- DX Needs findings 
+- Support rotation 
+- platform assignments 
+
+## Notes
+- need a triage plan for managing dependencies 
+
+# 20200226
+
+## Agenda
+- Sentry: A Whirlwind Tour (Chris)
+
+## Notes
+Nopes
+
 # 20200210 
 
 ## Agenda 

@@ -1,4 +1,4 @@
-# VSA Product Management
+# VSA Product Management Handbook
 *The following resources compiled by the people in your practice area to help you do your work and answer questions you might have. Some links may take you to other sites and resources outside this repo. If you need a hand with anything, don't hesitate to ping #vsa-product or Mickin Sahni (@mickin).*
 
 ## Contents
@@ -12,6 +12,7 @@
   - [Agile Ceremonies](#agile-ceremonies)
   - [Sprint Objectives](#sprint-objectives)
   - [Issue Templates and Examples](#issue-templates-and-examples)
+  - [Team of Teams](#team-of-teams)
 - [Launch Prep](#launch-prep)
 
 ### Setting Direction-Guideposts, OKRs, and Bets
@@ -38,7 +39,9 @@ Teams develop bets, or hypotheses, they believe will help them achieve their OKR
 #### Roadmap
 Each VSA product team publishes a "roadmap" of their OKRs and bets. Roadmaps help the cross-functional product team and stakeholders gain a better sense of the outcomes a given team targets. 
 It doesn’t include the typical timeline of assumed features. Rather, it’s a hierarchical and time-bound view of how the bets the team made trace back to strategic goals.
-- Template - tbd
+- Templates
+  - [Outcome-based Roadmap Visual](https://docs.google.com/drawings/d/16-ih0YnV-Q09PUfFPWT9mqEMRpkizvjugOgHpBDK9RM/edit?usp=sharing)
+  - [OKR Progress Tracker](https://docs.google.com/spreadsheets/d/1jvhpBgG-MtHFKoCW3WnEhsE-5oPoQxcj0gDOYFwBBL8/edit?folder=1YkkOe5w3sVA0KaW0DtgCFvQy6oVfycng#gid=305836182)
 - Examples 
   - [Facility Locator Roadmap](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/product/roadmap.md)
 
@@ -83,12 +86,15 @@ Resources:
 | [508 Issue (Accessibility)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/402a408fa77a421bae0a8a84ce0c43b4c601e55c/.github/ISSUE_TEMPLATE/508-issue.md) | [[COGNITION]: Error message should only display once per error](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5948) |
 | [Public Websites Intake Form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=lunascoop&labels=vsa-public-websites%2C+vsa%2C+vsa-public-websites-intake&template=public-websites-intake.md&title=%3CType+of+Request%3E+from+%3CTeam%3E) | [[Content] HLR: Introduction Page Copy Updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5622) |
 
+#### Team of Teams (ToT)
+An opportunity for product managers and DEPO leads working across VA.gov to share updates for awareness, dependencies, blockers. 
+- [Template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/product/ToT_Template.pptx)
 
 #### Testing
    - [UAT](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-uat.md)
 
 #### Tools
-  - [Product Management Process in Zenhub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/a2b160c2fbf52806323d6a54103229f99a730076/platform/working-with-vsp/onboarding/zenhub_product_management.pdf)
+  - [Product Management Process in Zenhub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/zenhub_product_management.pdf)
   - [Vets/VA Metrics Spreadsheet](https://docs.google.com/spreadsheets/d/1L_w8FhhcOttMitKB3_9ge8UN01GcSXmaPZWDIRJIhxI/edit#gid=972187789)
   - [Access to Error Logging](https://github.com/department-of-veterans-affairs/va.gov-team/blob/402a408fa77a421bae0a8a84ce0c43b4c601e55c/platform/engineering/internal-tools.md)
   - [VA.gov Form Mapping Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/va.gov-form-mapping-guide.xlsx)

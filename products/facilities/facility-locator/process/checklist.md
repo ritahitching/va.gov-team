@@ -78,7 +78,7 @@ _Do we need to merge the FE and BE tasks?_
   - [ ] Define or reference a known resource
 - [ ] For PRs: first review internally with BE or another engineer before the BE Team
   - [ ] Once internally reviewed, share with the BE Review Team at the VSP (team name?)
-  - [ ] Ensure that [feature flags](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-flags/) are set appropriately to be [toggled](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/feature-toggles.md) 
+  - [ ] Ensure that [feature toggles](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-toggles/) are set appropriately to be [toggled](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/feature-toggles.md) 
 - [ ] Documentation and points of contact for any new backend dependencies
 - [ ] Links to important dashboards for investigating relevant issues
 ### Frontend Tasks
@@ -90,7 +90,7 @@ _Do we need to merge the FE and BE tasks?_
   - [ ] Define or reference a known resource
 - [ ] For PRs: first review internally with FE or another engineer before the FE Team
   - [ ] Once internally reviewed, share with the FE Review Team at the VSP (team name?)
-  - [ ] Ensure that [feature flags](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-flags/) are set appropriately to be [toggled](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/feature-toggles.md) 
+  - [ ] Ensure that [feature toggles](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-toggles/) are set appropriately to be [toggled](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/feature-toggles.md) 
   - [ ] Entrance pages (i.e. supporting static content) in place
 ### Security/ATO
 - [ ] Establish who among VSP we should talk to about Security Reviews
@@ -118,12 +118,12 @@ _Do we need to merge the FE and BE tasks?_
 - [ ] Engage with the Analytics Team about what is to be launched  
 - [ ] Review [KPI/metrics spreadsheet](https://docs.google.com/spreadsheets/d/1e9bqzjBnibiCWXWNMcK-fJOw7cjXVdx5M6gmC4phlfg/edit#gid=1554481611)
 ## Support
-- [ ] Does the Call Center have documentation?
+- [ ] Does the Contact Center have documentation?
 - [ ] Have they asked for anything else?
 - [ ] What else should we say about 
 
 ## Pre-release
-- [ ] Call Center is prepared for launch with updated scripts/documentation as needed
+- [ ] Contact Center is prepared for launch with updated scripts/documentation as needed
 - [ ] VA web comms team is aware of this launch and has accurate messaging
 - [ ] Product Outline is updated
 - [ ] Downtime UX and error messaging documentation complete
@@ -144,8 +144,8 @@ _Do we need to merge the FE and BE tasks?_
 
 ## Post-Mortem
 - [ ] List and define any issues that impeded the process
-- [ ] Create post-launch coordination plan including calls with stakeholders and call center 
-- [ ] Coordinate with Call Center to monitor calls 
+- [ ] Create post-launch coordination plan including calls with stakeholders and contact center 
+- [ ] Coordinate with Contact Center to monitor calls 
 - [ ] Ensure monitoring and resolve issues in 24 hours
 - [ ] Collect and report metrics from Google Analytics
 - [ ] Schedule regression testing 

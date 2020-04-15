@@ -58,10 +58,10 @@ Interview invitations to be done directly via email
 
 ## Timeline
 
-#### Desired Timeline: March 09, 2020 – March 27, 2020
-1.5 hour sessions
+#### Desired Timeline: March 09, 2020 – March 19, 2020
+1.5 hours each individual session
 
-#### Pilot Date: Wednesday, February 26, 2020
+#### Pilot Date: Wednesday, March 3, 2020
 The research will be piloted with Kevin Walsh, VFS-CMS Product Manager 
 
 ## Team Roles 	
@@ -77,7 +77,6 @@ The research will be piloted with Kevin Walsh, VFS-CMS Product Manager
 * [Project Brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms)
 * [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/cms-personas-journeys/conversation-guide)
 * [Recruitment Comms](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/cms-personas-journeys/recruitment-comms)
-* [Consent Form](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/cms-personas-journeys/consent-form)
 * [WIP] Synthesis	
 * [WIP] Lessons Learned
 * [WIP] Read-Out/Results

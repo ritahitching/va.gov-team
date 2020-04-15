@@ -1,3 +1,7 @@
+# CMS Support Channels - Monthly Log Analysis
+
+The CMS team will do a monthly log analysis of specific support channels to help inform design decisions and prioritization. The collection procedure can be found [here](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/monthly%20log%20analysis).
+
 # Content Management System Author Experience (AX)
 
 #### January 8-10, 2019: AX Discovery
@@ -27,12 +31,19 @@ _VA.gov CMS team: Lapedra Tolson_
 * 2 participants
 * [Research folder](ax%20research%20-%20operating%20status%20discovery%20-%20August%202019)
 
-#### [WIP] February XX - March XX, 2020: CMS personas and journey maps 
+#### [WIP] March 09 - March 19, 2020: CMS personas and journey maps 
 
 _VA.gov CMS team: Jordana Mello, Rachek Kauff_
 
 * X participants
 * [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/cms-personas-journeys)
+
+#### [WIP] March 03 - March 13, 2020: Support channels log analysis 
+
+_VA.gov CMS team: Jordana Mello, Rachek Kauff, Howard Brande_
+
+* VA CMS Suppor Email and #cms-support Slack
+* [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/support-channels-log-analysis)
 
 #### [WIP] February XX - March XX, 2020: Content proofing usability study 
 
@@ -40,10 +51,3 @@ _VA.gov CMS team: Jordana Mello, Rachek Kauff_
 
 * X participants
 * [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/content-proofing-usability-study)
-
-#### [WIP] February XX - March XX, 2020: Support channels log analysis 
-
-_VA.gov CMS team: Jordana Mello, Rachek Kauff, Howard Brande_
-
-* X participants
-* [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/authoring-experience/research/support-channels-log-analysis)

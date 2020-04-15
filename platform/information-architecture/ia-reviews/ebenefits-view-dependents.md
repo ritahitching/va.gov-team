@@ -1,5 +1,7 @@
 # IA Review and Recommendations
 
+> **OUTDATED! Please note that additional work has been done on this functionality, please reference IA work here:  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/ia-reviews/ebenefits-dependents.md**
+
 **Team:** eBenefits
 
 **Product/Featue:** View Dependents
@@ -40,7 +42,7 @@ Vew Dependents tool | www.va.gov/view-dependents/dependents | Home > Your VA dep
 
 <hr>
 
-### Navigation. Entry Points and Crosslinking
+### Navigation, Entry Points and Crosslinking
 *The primary entry points and changes to global navigation, as well as any potential crosslinking opportunities*
 
 **Entry point and crosslinking placement**

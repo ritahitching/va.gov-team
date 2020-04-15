@@ -15,7 +15,7 @@ Last Updated December 10, 2019
 |----|----|
 |Lisa Koenigsberg|DSVA Lead| 
 |Samara Strauss |DSVA Lead Designer|
-|Justin Pickett |Product Manager|
+|Matt Shea|Product Manager|
 |Nick Sullivan |Original Engineering Lead (now on Platform)|
 |Erik Hansen | FE Engineer|
 |Lihan Li | BE Engineer |
@@ -159,6 +159,14 @@ On January 29, 2020, eBenefits removed the direct deposit feature from the websi
 - The errors we're seeing are about 80% "account flagged" errors, which we won't be able to reduce.  Users have to call the help desk to unflag the account and are currently getting a message telling them take that action. 
 - There are also some "bad routing number" errors that are also likely just that, an incorrectly entered routing number. 
 - At the moment, the only one that might be erroneous would be the "bad home phone" errors. The solution we think would work for that is to adjust Google Analytics to better track those, and see if users update their phone number after receiving the error and are then able to update their DD info.
+
+**October 2019**
+
+- We launched to 25% of users.
+
+**Sept 2019**
+
+- We launched to 10% of users.
 
 **8/21/19**
 

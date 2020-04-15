@@ -27,3 +27,28 @@ _Rollout meetings with VSA teams_
 "It seems like there should be more in between Discover and Build - like checkins on progress, etc"
 
 "Excited to try it!"
+
+"Thank you for all the work and taking the time to walk us through it!"
+
+"Seems like it was well thought out and should run smoothly."
+
+"Thank you very much for reviewing all of these areas and requirements with our team, although we have a unique product, it was extremely helpful to determine how, when, and with whom we need to collaborate. This is also helpful if we ever do, cross the bridge of develop, design, and build an application in our work space. Great WORK!"
+
+From 3/12 meeting with BAH -- they are going to be going through the collaboration cycle and comparing it to the handbook. Showing any gaps or new pain points with the new process. Amy K. did bring up that the handbook had information about where to store artifacts that the collaboration cycle doesn't have
+
+"Very much appreciate your assistance!"
+
+Should think about regression test plans and when we require them because teams are just having Tze build them in a box, which isn't helpful to the whole scrum team. Should we move that artifact later in the process? Work with peter on this. 
+
+Need to add ATO to collab cycle once their training materials are ready. 
+
+# Additional Notes from VSP Reviewers & Moderators 
+
+### Megan notes from rollout mtgs 
+
+- Numerous teams have had questions about the contact center review — timing, and also guidance on how to create those artifacts. Talked with vsp analytics 3/6/20
+- QA artifacts as part of Usability Testing Prep are _really_ tripping people up, they do not seem thrilled (curious to see if we get the same feedback in the post-review surveys?) 3/6/20
+- Related, the 2 Usability Testing Prep templates we've had so far have both been created by the team designer, which is not our guidance -- that could be why the QA artifacts are confusing, bc the designer doesn't know why they need to think about QA? 3/6/20
+- Need to add a step into templates that has Megan/Andrea assign ticket back to requesting team once meeting has been scheduled 3/6/20
+- Need to change templates to have requesting team put email addresses of attendees
+- Need to change templates to include our times that are blocked off for reviews in the "Scheduling" section

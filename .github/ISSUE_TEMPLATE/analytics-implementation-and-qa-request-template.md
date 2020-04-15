@@ -2,8 +2,8 @@
 name: Analytics Implementation and QA Request Template
 about: To request Google Analytics implementation or QA for product launches or iterations
 title: Analytics Implementation or QA Support for [Product]
-labels: analytics-insights, analytics-request
-assignees: joanneesteban, jonwehausen, nedierecel
+labels: analytics-insights, analytics-request, collaboration-cycle
+assignees: joanneesteban, bsmartin-ep, jonwehausen
 
 ---
 

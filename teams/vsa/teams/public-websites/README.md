@@ -9,8 +9,10 @@ Provides Veterans, family members, caregivers, service members and other audienc
 ### Team Vision:
 We envision a world where it takes less time to find information about VA benefits and services than it does on Google. 
 
-### Team North Star:
-WIP
+### Team North Stars:
+1. Use of self-service tools and associated number of conversions
+2. Time to outcome
+3. Customer satisfaction
 
 ## What we work on
 ### Product Suite

@@ -21,7 +21,7 @@ Number of VFS teams that use the Product Success Tool to make product decisions.
 
 ## Phase 0: Pre-launch & launch prep [Due Pre-Launch]
 The goal of this stage is to ensure the tool is holistically ready for production launch
-- [VSP pre-launch checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/onboarding/Product%20Development%20Checklist.md) "relevant" items complete
+- [VSP pre-launch checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/Product%20Development%20Checklist.md) "relevant" items complete
     - [ ] Accessibility/508 Review
     - [ ] Content Review
     - [ ] KPIs set
@@ -50,7 +50,7 @@ The goal of this phase is to stand up the data warehouse with available metrics 
 - Stand up BigQuery with:
   - [ ] Google Analytics
   - [ ] Historical ForeSee data  
-  - [ ] Historical Call Center data
+  - [ ] Historical Contact Center data
 - Test with additional 1 or 2 additional products: Potentially Facility Locator & Benefits & Appeals
 - Go / No Go decision for continuing to Phase 3:
   - [ ] Target of reaching 1 or 2 additional stakeholders reached

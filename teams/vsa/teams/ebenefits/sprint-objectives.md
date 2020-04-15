@@ -6,31 +6,108 @@
 - Communicate and embrace transparency
 - Stay organized and help your future self and team
 - Measure outcomes where possible
-- Remember the Call Center
+- Remember the Contact Center
 ----
-## Sprint 16 (2/26 - 3/10)
+## Sprint 19 (4/8 - 4/21)
 ```diff 
-- TBD
+- 54 points over 18 issues
+```
+## 1. Prepare "Dependency Claims" for pre-launch and testing
+- Design and Product: Run final collab cycle meetings
+- Design and Product: Incorporate two new Pension questions and content
+- FE and BE: Work together to submit data model
+- FE and BE: Work together to complete submission activities (PDF, error states)
+- Backend: Complete submission workflows
+- Product: Create call center documentation
+- Product: FE user story smoke test
+- Team: Set critical dates for launch activities (e2e testing, load testing, usability, UAT, n% rollout)
+
+## 2. View Payments: Iteration
+- FE (STRETCH): Stub out View Payments based on mock data
+
+## 3. PCPG (CH36): Finish Product Designs, Iteration
+- Product: Update product documentation in feature README
+- Product and Design: Collab Cycle Kickoff
+- Design: Compete initial designs based on minimal form scenario, schedule Design Intent meeting
+
+## 4. Scaffold Loan Guaranty Application Projects
+- Product: Build product documentation
+- Research: Build conversation guide and perform initial analysis
+
+## 5. POA: Design Iteration
+- Design (STRETCH): Iterate on product designs and schedule further Collab Cycle activities as needed
+
+## Sprint 18 (3/25 - 4/7)
+```diff 
+- 74 points over 28 issues
 ```
 ## 1. Continue Developing "Submit 686c Dependency Claims"
-- Design: Synthesize feedback from usability study and update mocks, prepare for/ run final platform design meetings
-- Frontend: Stub out remaining FE workflows and unit tests (7-8)
-- Backend: Build infrastructure sufficient to pass first (n) steps in 686c submission workflow
+- Design: Run final platform design/ collab cycle meetings
+- Frontend: Make app fully navigable in staging
+- Frontend: Work with BE to submit data model
+- Backend: Submit a simple, valid 686c and get both success and error responses
+- Backend: Begin work on 674
 
-## 2. Complete "View Dependents"
-- Design: Establish a recommended landing page to be sent to Content/IA, and eventually Public Websites
-- Frontend: Establish GA events
-- Frontend: Finish unit tests
-- Backend: Update the data format for "View Dependents"  
+## 2. View Payments: Finish Product Designs
+- Design: Schedule Design intent meeting and create an initial feature design
+- Design/ Research: Prepare user research/ interview sessions on how Veterans use View Payments (doesn’t necessarily need a fully resourced research project, could be extremely lightweight voice interviews, just looking for pain points in the existing product)
+
+## 3. Career and Educational Counseling (CH36): Initial Product Designs
+- Product: Create product documentation in feature README
+- Product & Design: Initial stakeholder meeting
+- Design: Begin customer journey map/ initial design/ collab cycle meetings with platform
+
+## 4. Complete POA Research Prep
+- Finish initial research
+- Create research plan/ conversation guide for future study
+
+## 5. Stretch - Improve Product Infrastructure
+- Frontend: Work across platform to plan development on a Drupal+vets-website UAT solution. The goal is to be able to launch a full product to production behind a feature flag and invite a specific group of users to interact with the feature. _(Determine what kind of Product-level support is needed.)_
+
+## Sprint 17 (3/11 - 3/24)
+```diff 
+- 76 points over 24 issues
+```
+## 1. Continue Developing "Submit 686c Dependency Claims"
+- Design: Run final platform design/ collab cycle meetings
+- Frontend: Stub out remaining FE workflows and unit tests
+- Backend: Build infrastructure sufficient to submit a valid 686c
+
+## 2. View Payments: Finish Initial Designs
+- Design: Schedule Design intent meeting and create an initial feature design
+- Design/ Research: Prepare user research/ interview sessions on how Veterans use View Payments _(doesn’t necessarily need a fully resourced research project, could be extremely lightweight voice interviews, just looking for pain points in the existing product)_
+
+## 3. Power of Attorney: Product Documentation and Walkthrough
+- Product: Create product documentation in feature README
+- Design: Begin customer journey map/ initial design/ collab cycle meetings with platform
+
+## 4. Stretch - Improve Product Infrastructure
+- Frontend: Work across platform to plan development on a Drupal+vets-website UAT solution. The goal is to be able to launch a full product to production behind a feature flag and invite a specific group of users to interact with the feature. _(Determine what kind of Product-level support is needed.)_
+
+## Sprint 16 (2/26 - 3/10)
+```diff 
+- 54 points over 17 issues
+```
+## 1. Continue Developing "Submit 686c Dependency Claims"
+- Design: Synthesize feedback from usability study and update mocks, prepare for/ run final platform design meetings ([#6202](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6202))
+- Frontend: Stub out remaining FE workflows and unit tests ([#4887](https://github.com/department-of-veterans-affairs/va.gov-team/issues/4887), [#4897](https://github.com/department-of-veterans-affairs/va.gov-team/issues/4897), [#4910](https://github.com/department-of-veterans-affairs/va.gov-team/issues/4910), [#6004](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6004), [#5503](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5503), [#6014](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6014), [#6219](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6219), [#6220](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6220))
+- Backend: Build infrastructure sufficient to pass first (`n`) steps in 686c submission workflow ([#6189](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6189))
+
+## 2. Complete "View Dependents" in Staging
+- Design: Establish a recommended landing page to be sent to Content/IA, and eventually Public Websites ([#5255](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5255))
+- Frontend: Finish unit tests ([#5502](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5502))
+- Backend: Update the data format for "View Dependents" ([#6185](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6185))
 
 ## 3. Initial Design: "My Payment History"
-- Design: Schedule Design intent meeting and create an initial feature design
-- Design/ Research: Prepare user research/ interview sessions on how Veterans use View Payments  
+- Design: Schedule Design intent meeting and create an initial feature design ([#5646](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5646))
+- Design/ Research: Prepare user research/ interview sessions on how Veterans use View Payments [#5644](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5644))
 *(doesn’t necessarily need a fully resourced research project, could be extremely lightweight voice interviews, just looking for pain points in the existing product)*
 
 ## 4. Stretch - Improve Product Infrastructure
-Frontend: Work across platform to plan development on a Drupal+vets-website UAT solution. The goal is to be able to launch a full product to production behind a feature flag and invite a specific group of users to interact with the feature.  
+- Frontend: Work across platform to plan development on a Drupal+vets-website UAT solution. The goal is to be able to launch a full product to production behind a feature flag and invite a specific group of users to interact with the feature.  
 *(Determine what kind of Product-level support is needed.)*
+- Submit request to allow developers to directly modify and update our documentation (#6179)
+- Submit request for an alert to all devs for breaking changes (#6188)
 
 ## Sprint 15 (2/12 - 2/25)
 ```diff 
@@ -143,7 +220,7 @@ _Note that we will not be turning off any functionality in EBN or doing any comm
 ```
 ### 1. Prepare "View My Rated Disabilities" for Launch
 - Refine any error handling issues and user acceptance testing remaining in staging
-- Complete final reviews required to launch (Call Center, Content/IA {mockups}, 508 {staging}, Security {staging})
+- Complete final reviews required to launch (Contact Center, Content/IA {mockups}, 508 {staging}, Security {staging})
 - Address any further DSVA Design feedback
 - Review the launch checklist and document any remaing gaps for launch procedures  
   - [Epic for **Rated Disabilities**](https://github.com/department-of-veterans-affairs/va.gov-team/issues/1032)   

@@ -13,8 +13,8 @@ The VSP Collaboration Cycle was created for medium-to-large VFS work initiatives
 * [Information Architecture (IA) Request](#information-architecture-ia-request)
 * [Analytics Request](#analytics-request)
 * [Contact Center Review](#contact-center-review)
-* [Privacy and Security Review](#privacy-and-security-review)
 * [Staging Review](#staging-review)
+* [Privacy and Security Review](#privacy-and-security-review)
 * [Full Accessibility and 508 Office Audit](#full-accessibility-and-508-office-audit)
 * [Post-launch Check-in](#post-launch-check-in)
 
@@ -54,6 +54,7 @@ You bring:
 - A rough draft of your [product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md) (stored in appropriate GitHub `va.gov-team/products` folder)
 - An explanation of the problem space
 - Any other artifacts you have so far
+- Any questions you have about the [staging accessibility review processes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/staging-review-processes.md)
 - You **do not** need to prepare a presentation
 
 ### Outcomes and artifact outputs
@@ -115,7 +116,7 @@ Meet with VSP practice area reviewers to confirm that your prototypes or mockups
 ## Collaboration format: 30-minute meeting 
 
 ### Request Process
-**VFS Product Manager** initiates scheduling by submitting ZenHub issue — use `Usability Testing Prep` template _(select in ZenHub dropdown or click [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=andreahewitt-odd%2C+meganhkelley&labels=product+support%2C+content-ia-team&template=usability-testing-prep.md&title=Pre-Usability+Review+%5BFeature-Name%5D) to open a ticket)_. VSP will schedule the meeting.
+**VFS Product Manager** initiates scheduling by submitting ZenHub issue — use `Usability Testing Prep` template _(select in ZenHub dropdown or click [here]( https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=andreahewitt-odd%2C+meganhkelley&labels=product+support%2C+content-ia-team%2C+collaboration-cycle&template=usability-testing-prep.md&title=Usability+Testing+Prep+%5BFeature-Name%5D) to open a ticket)_. VSP will schedule the meeting.
 
 ### Artifact inputs
 You bring: 
@@ -266,7 +267,7 @@ Reach out to analytics experts on Slack via #vfs-platform-support
 ---
 
 # Contact Center Review
-Ensure that VA call center representatives are prepared to help Veterans troubleshoot VA.gov.
+Ensure that VA contact center representatives are prepared to help Veterans troubleshoot VA.gov.
 
 ## Timing
 - Development stage: **Build**
@@ -275,10 +276,10 @@ Ensure that VA call center representatives are prepared to help Veterans trouble
 ## Collaboration format: asynchronous
 
 ### Request process
-**VFS Product Manager** follows instructions on the [Contact Center Review page](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/call-center/request-contact-center-review.md) to request a Contact Center review.
+**VFS Product Manager** follows instructions on the [Contact Center Review page](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/contact-center/request-contact-center-review.md) to request a Contact Center review.
 
 ### Artifact inputs
-You bring (refer to [Contact Center Review page](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/call-center/request-contact-center-review.md) for further instruction): 
+You bring (refer to [Contact Center Review page](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/contact-center/request-contact-center-review.md) for further instruction): 
 - Product Guide
 - Product Video
 
@@ -287,7 +288,7 @@ You bring (refer to [Contact Center Review page](https://github.com/department-o
 - Ensure that VA Contact Centers are prepared to help Veterans troubleshoot your product
 
 ## For further support at this point
-Reach out to call center leads in Slack via #vsp-contact-center-support or contact @chante or @joanne in Slack.
+Reach out to contact center leads in Slack via #vsp-contact-center-support or contact @chante or @joanne in Slack.
 
 ---
 
@@ -310,9 +311,10 @@ You bring:
 - Access information for the tool or feature in staging _**do not put staging credentials in your `va.gov-team` ticket; store or reference them in a .md file in the `va.gov-team-sensitive` repository**_
 - Link to your [test plan](https://dsvavsp.testrail.io/index.php?/suites/view/2&group_by=cases:section_id&group_order=asc) in TestRail with [test results](https://dsvavsp.testrail.io/index.php?/runs/view/7&group_by=cases:section_id&group_order=asc) _for QA practice area review_ 
 - Link to your [Coverage for References](https://dsvavsp.testrail.io/index.php?/reports/view/12) and [Summary(Defects)](https://dsvavsp.testrail.io/index.php?/reports/view/14) reports in TestRail _for QA practice area review_
+- Review the [staging accessibility review processes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/staging-review-processes.md)
 - Link to your accessibility test plan:
   - **TestRail** [TestRail VSP accessibility test plan template](https://dsvavsp.testrail.io/index.php?/suites/view/14&group_by=cases:section_id&group_order=asc) **OR**
-  - **Markdown** [Github accessibility test plan template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/accessibility-test-plan-template.md)
+  - **Markdown** [Github accessibility test cases template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/accessibility-test-cases-template.md)
 - List of known issues (with links to tickets when applicable)
 - **_Please provide these artifacts at least 2 days before the scheduled review meeting._**
 
@@ -354,17 +356,19 @@ Ensure your feature meets VSP's privacy and security standards.
 ## Collaboration format: 60-minute meeting
 
 ### Request process
-**VFS Lead Engineer or Product Manager** uses `Privacy and Security Review` template _(select in ZenHub dropdown or click [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=gunsch&labels=product+support&template=privacy-and-security-review.md&title=Privacy+and+Security+Review+%5BFeature-Name%5D) to open a ticket)_
+**VFS Lead Engineer or Product Manager** uses `Privacy and Security Review` template in `va.gov-team-sensitive` repository _(select in ZenHub dropdown or click [here](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/issues/new?assignees=gunsch&labels=product+support%2C+collaboration-cycle&template=privacy-and-security-review.md&title=Privacy+and+Security+Review+%5BFeature-Name%5D) to open a ticket)_
 
 ### Artifact inputs
 - An architecture diagram, showing involved systems + data flows
 - Description of any new publicly-exposed endpoints (vets-api or otherwise)
 - Description of any new interactions with dependent services (i.e. vets-api --> ???)
 - Description of any other security hotspots you're concerned about / want extra attention on
+- Link to [release plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md) with the "Planning" sections completed (in each section: Phase I, Phase II, Go Live)
 - **_Please provide these artifacts at least 2 days before the scheduled review meeting._**
 
 ### Outcomes and artifact outputs
 - VSP provides a list of concrete action items that need to be addressed, or approval to roll out
+- Once VFS team has complete those action items, assign the security review issue back to @gunsch, who will confirm completion and close out the issue, signalling approval of the security review.
 
 ### Meeting attendees 
 - VFS brings:
@@ -389,16 +393,20 @@ Accessibility experts complete a full accessibility audit and coordinate with th
 - Schedule a full audit when your product is launched to production, or code is relatively stable. This audit should be scheduled as early as possible. 
 
 ## Collaboration format: asynchronous
+- Review the [accessibility post-launch audit processes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/post-launch-audit-processes.md) document
 
 ### Request Process
-**VFS Product Manager** use `Full Accessibility & 508 Office Audit` template _(select in ZenHub dropdown or click [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=1Copenut%2C+jenstrickland&labels=508%2FAccessibility%2C+product+support&template=full-accessibility-and-508-office-audit.md&title=Full+Accessibility+%26+508+Office+Audit+%5BFeature-Name%5D) to open a ticket)_
+**VFS Product Manager** Two options: 
+
+1. [Request Full Accessibility & 508 Office Audit](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=1Copenut%2C+jenstrickland&labels=508%2FAccessibility%2C+product+support&template=full-accessibility-and-508-office-audit.md&title=Full+Accessibility+%26+508+Office+Audit+%5BFeature-Name%5D) 
+1. Or select `Full Accessibility & 508 Office Audit` template in the Zenhub dropdown
 
 ### Artifact inputs
 You bring:
 - Access information for the tool or feature in production _**do not put staging credentials in your `va.gov-team` ticket; store or reference them in a .md file in the `va.gov-team-sensitive` repository**_
 - Link to your accessibility test plan:
   - **TestRail** [TestRail VSP accessibility test plan template](https://dsvavsp.testrail.io/index.php?/suites/view/14&group_by=cases:section_id&group_order=asc) **OR**
-  - **Markdown** [Github accessibility test plan template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/accessibility-test-plan-template.md)
+  - **Markdown** [Github accessibility test plan template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/accessibility-test-cases-template.md)
 
 ### Outcomes and artifact outputs 
 - Accessibility experts identify any outstanding accessibility concerns with your product

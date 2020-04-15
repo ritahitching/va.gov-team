@@ -1,3 +1,5 @@
+### To view images, please view the summary in the vets.gov-team repo https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Health%20care/HealthApplication/HCA%20Duplicate%20Submissions%20Updates/Discovery%20and%20Research/User%20Testing/Dashboard%20updates/Research%20summary.md
+
 # Background
 
 ### [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/hca-2.0/research/user-testing/dashboard-updates/research-summary.md)
@@ -6,7 +8,7 @@
 
 ### Goals & What We Did
 
-In March 2019, we designed and conducted [testing on updates to the health care application](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/hca-2.0/research/user-testing/mar-2019/research-summary.md). Since then, we have completed additional updates to the dashboard as part of the larger health care application experience. This round of testing evaluated those dashboard changes.
+In March 2019, we designed and conducted [testing on updates to the health care application](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/user-testing/mar-2019/research-summary.md). Since then, we have completed additional updates to the dashboard as part of the larger health care application experience. This round of testing evaluated those dashboard changes.
 
 # Methods
 

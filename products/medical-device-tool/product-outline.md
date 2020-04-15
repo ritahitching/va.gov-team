@@ -17,7 +17,7 @@ Product Outline
   - Paras Shah, VEText Project Manager
 
 
-### table of Contects
+### Table of Contents
 
 
 # Executive Summary 
@@ -28,7 +28,7 @@ Product Outline
 - [Discovery Takeaways](#discovery-takeaways)
 - [Solution Approach](#solution-approach)
 - [Value Propositions](#value-propositions)
-- [KPIs](#kpis)
+- [OKRs & KPIs](#okrs-kpis)
 
 # Implementation Information
 - [Status](#status)
@@ -45,51 +45,49 @@ Product Outline
 # Executive Summary
 
 ### User Problem Statement
-As a Veteran, who is eligible to re-order hearing aid batteries and accesories from the Denver Logistics Center (DLC), I would like to be able to see what items I can reorder on line and the date I am eligible ro reorder on-line without having to call or email the support center. As the DLC, I would like to migrate more users to online self service reordering system to decrease call center volume, mail in cards and reduce costs.
+As an eligible Veteran, I would like to be able to receive hearing aid battery and/or accessory resupply online so I don't need to contact the Denver Logistics Center (DLC) to place an order.
 
 ### Solution Goals
-Improve the overall reordering experience for Veterans by increasing the number of medical items offered through Denver Logistic Center's (DLC) online ordering system and makign the user experience easy and intuitive.
+Provide Veterans eligible for hearing aid battery and/or accessory resupply a user experience that allow them to order available items through an end-to-end online ordering process. 
 
 ### Minimal Viable Product (MVP)
 Medical Device Tool features: 
 - Veteran's personal information - login and authenticate with Vet360 API
 > Name, Address, Email is prepopulated in the personal information forms.
 - Clear instructions on how to edit veterans personal information, if it is incorrect
-- Pull in reorder data using Reorder API so vets can see what productsthey are aligible to to reorder and eligibility dates and quantaties.
+- Pull in reorder data using Reorder API so Veterans can see products eligible for resupply, reorder eligibility dates, and item quantities.
 > Hearing aid batteries
 > Hearing aid accessories
-- Confirmation page
-> list out veteran contact information & items ordered
+- Review submission page
+> Display the Veteran's contact information & items ordered
 - Status of order
 
 ### User Goals
-Streamline the Veterans ordering process by:
-1. Be able to complete a full order through the online ordering system. 
-2. Modernizes their ordering process to reduce efforts 
--	_Currently eBenefits only offers reordering Hearing aids batteries and prosthetic socks._
+Implement a modernized ordering process using the VA.gov form's system that will allow the Veteran to quickly select the items available for resupply and submit an order. 
 
 ### Business Goals
 DLC
 -	Migration of orders from other offered channels to the online channel. 
--	Currently the online channel is used by 7,000 veterans per month. Other channels are IvR, direct email, call center and reorder forms account for 180,000 per month.
--The business goal is to migrate veterals from channels that have a high cost per order to online self service channel. 
+-	Currently the online channel is used by 7,000 Veterans per month. The other ordering channels are IvR, direct email, contact center and reorder forms account for 180,000 per month.
+-The business goal is to migrate Veterans from channels that have a high cost per order to online self service channel. 
 -A QoQ migration of 5% to online channel would be considered a huge win.
 
 -Primary Objectives:
 > - Transition hearing aid battery resupply ordering from eBenefits to VA.gov
 > - Add online resupply request capability for common hearing aid accessories
-> - Minimize need for Veteran data entry in online channel. Personal information adn reorder information is prefilled for the Vets. 
+> - Minimize need for Veteran data entry in online channel. Personal information adn reorder information is prefilled for the Veteran. 
 > - Maximize DLC processing of requests via online channel
 
 -Secondary Objectives:
-> - Include features to ensure correct delivery address for products being shipped. The Vet can edit deliviry address on-line. 
+> - Include features to ensure correct delivery address for products being shipped. The Vet can edit delivery address online. 
 
 VA
 -	Migrate DLC's medical device ordering tool from eBenefits to Va.gov
 
 ## Assumptions
-- The low online orders are a result of Veterans finding it difficult to log into the eBenefits because of its additional authentication requirements. 
-- Veterans use other channels to reorder their items because the online channel is difficult and confusing to use.
+- The low number of online orders is a result of Veterans finding it difficult to log into eBenefits because of additional authentication requirements. 
+- Veterans use other channels to reorder their items because the online channel is both difficult and confusing to use.
+- Veterans who are able to log into eBenefits do not place orders online due to being unable to order hearing aid accessories. 
 
 ## Requirements and Constraints
 ### Requirements- 
@@ -111,18 +109,24 @@ VA
 Team will utilize shared resources to include, but not limited to: Front End engineer, Editors, content review, IA, 508, and local PAO input.
 
 #### User Value
--	Streamline the ordering process and improve reordering experience on on-line channel, migrate users from higher cost fulfillment options such as contact center and mail in reorder cards.
+Being able to order all available hearing aid battery and accessory items through an online ordering system instead of experiencing potential wait times while placing an order through the DLC's contact center or wondering if a sent mail-in order card has been processed.
 
 #### Business Value
 Increase customer satisfaction
--	By fulling Veterans desire to reorder medical supplies online instead of calling contact center or sending in reorder cards.
--	Reducing number of mail-in and Call Center calls to decrease operating costs for DLC
--	The opportunity to increasing focus on a Veterans needs because the volume of cued calls will be reduced.
+-	By fulling Veterans desire to reorder medical supplies online instead of calling contact center or sending mail-in order cards.
+-	Reducing number of both mail-in order cards and contact center calls to decrease the DLC's operating costs.
+-	The opportunity to increase focus on a Veteran's needs because the volume of contact center calls will be reduced.
 
-## KPIs
+## OKRs-KPIs
+
+### KPIs
+* Increase online orders by 5% QoQ
+* Order abandon rate <10%
+
+### Objectives and Key Results
 *Objective:* Reduce ordering complexity and streamline the process.
 * Reduction in mailed in orders
-* Reduction of Call Center orders
+* Reduction of Contact Center orders
 * Reduction of online errors
 * Reduction of total time to order items
 * Reduction of steps on the online ordering process
@@ -134,14 +138,10 @@ Increase customer satisfaction
 * See a reduction of orders from all other DLC ordering Channels
 * Compare online activity on GA with completion of orders from the DLC   
 
-*Objective:* Determine if Lager Catalogue is out of scope.  
-* How many products will create success.
-* Define what are the top ordered items
-* Define what top items have top ancillary items  
 
 *Objective:* Confirming (KPI) that new Medical tool will migrate orders to DLC VA.gov channel.  
 * Reduction in mailed in orders
-* Reduction of Call Center orders
+* Reduction of Contact Center orders
 * Increase in online orders  
 
 *Objective:* Build and create a modernized easy to use clearer catalogue with the DLC and house it in VA.gov
@@ -150,6 +150,10 @@ Increase customer satisfaction
 
 # Implementation Info
 -TBD
+
+## Target Launch Date
+- *May 15
+- *One month post launch and then QoQ
 
 ## Status
 In progress
@@ -182,14 +186,14 @@ In progress
 
 - Product specs
   
-  > Producsts: Hearing aid Batteries, Accessories
-  > Order history of last 2 years of items
-  > Product: Make
-  > Product: Name 
-  > Product: Serical NUmber 
-  > Next Reorder date
-  > Veterians address
-  > Confirmation email
+   - Products: Hearing aid batteries, hearing aid accessories
+   - Order history: eligible items ordered within the last 2 years
+   - Product: Make
+   - Product: Name  
+   - Next reorder date
+   - Most recent order date
+   - Veteran's shipping address
+   - Confirmation email
 
 - Design update
   + TBD
@@ -198,7 +202,7 @@ In progress
 
 
 ## Keywords
-- Prosthetic Socks, Hearing Aids
+- Prosthetic Socks, Hearing Aids, Hearing aid batteries, Hearing aid accessories
 
 ## Team
 - DSVA Product Manager: 

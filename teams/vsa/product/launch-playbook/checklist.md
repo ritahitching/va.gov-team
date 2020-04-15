@@ -86,7 +86,7 @@ _Do we need to merge the FE and BE tasks?_
   - [ ] Define or reference a known resource
 - [ ] For PRs: first review internally with BE or another engineer before the BE Team
   - [ ] Once internally reviewed, share with the BE Review Team at the VSP (team name?)
-  - [ ] Ensure that feature flags are set appropriately to be toggled
+  - [ ] Ensure that feature toggles are set appropriately to be toggled
 - [ ] Documentation and points of contact for any new backend dependencies
 - [ ] Links to important dashboards for investigating relevant issues
 ### Frontend Tasks
@@ -98,7 +98,7 @@ _Do we need to merge the FE and BE tasks?_
   - [ ] Define or reference a known resource
 - [ ] For PRs: first review internally with FE or another engineer before the FE Team
   - [ ] Once internally reviewed, share with the FE Review Team at the VSP (team name?)
-  - [ ] Ensure that feature flags are set appropriately to be toggled
+  - [ ] Ensure that feature toggles are set appropriately to be toggled
   - [ ] Entrance pages (i.e. supporting static content) in place
 - [ ] Establish GA events
 - [ ] E2E and unit tests and code coverage have been addressed
@@ -107,9 +107,9 @@ _Do we need to merge the FE and BE tasks?_
 - [ ] Establish who among VSP we should talk to about Security Reviews
   - [ ] What is the review process?
   - [ ] Check with Andrea Hewitt for questions, [ref](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/vsa-accessibility-review-process.md)
-- [ ] Review the [ATO Procedures](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/security/security-review-process.md)
-- [ ] Request a [preliminary ATO review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/security/security-review-process.md)
-- [ ] Request a [pre-launch ATO review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/security/security-review-process.md)
+- [ ] Review the ATO Procedures
+- [ ] Request a preliminary ATO review
+- [ ] Request a pre-launch ATO review
 
 ### QA
 - [ ] [Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/quality-assurance) from platform 
@@ -134,12 +134,12 @@ _Do we need to merge the FE and BE tasks?_
 - [ ] Review [KPI/metrics spreadsheet](https://docs.google.com/spreadsheets/d/1Zy_m5s6zrhmgKaUacYo2MLRmDjtJNhVKSeyeSeAtVec/edit#gid=1554481611)
 
 ## Support
-- [ ] Does the Call Center have documentation?
+- [ ] Does the Contact Center have documentation?
 - [ ] Have they asked for anything else?
 - [ ] What else should we say about 
 
 ## Pre-release
-- [ ] Call Center is prepared for launch with updated scripts/documentation as needed
+- [ ] Contact Center is prepared for launch with updated scripts/documentation as needed
 - [ ] VA web comms team is aware of this launch and has accurate messaging
 - [ ] Product Outline is updated
 - [ ] Downtime UX and error messaging documentation complete
@@ -162,8 +162,8 @@ _Do we need to merge the FE and BE tasks?_
 
 ## Post-Mortem
 - [ ] List and define any issues that impeded the process
-- [ ] Create post-launch coordination plan including calls with stakeholders and call center 
-- [ ] Coordinate with Call Center to monitor calls 
+- [ ] Create post-launch coordination plan including calls with stakeholders and contact center 
+- [ ] Coordinate with Contact Center to monitor calls 
 - [ ] Ensure monitoring and resolve issues in 24 hours
 - [ ] Collect and report metrics from Google Analytics
 - [ ] Schedule regression testing 

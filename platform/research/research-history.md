@@ -10,14 +10,40 @@ This does not include research for Appeals projects, which is stored in differen
 - Number of participants
 - Link to the **research folder** for this study (everything should live in here - research plan, convo guide, notes, synthesis, report. If these do NOT live here, please add the appropriate other links.) 
 
-__Please note that many links on this page reference research folders in the vets.gov-team GitHub repo. These links will be updated as work on migrating documentation to va.gov-team repo progresses.__
+### March 2020
+
+#### March 18-20: BDD Initial Usability test 
+*GovernmentCIO, BAM1. Lead researcher: Christian Valla
+
+-10 participants
+
+- [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/disability-compensation-claim/bdd/BDD%20Research/Initial-usability-March2020)
+
+#### March 4-6: Facility Locator User Search Expectations
+*Ad Hoc: VSA Facilities, Aricka Lewis*
+
+- 5 participants
+- [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/facility-locator/research/user-research/FL-Search-march2020)
+
+#### March 2-4: GI Bill Comparison Tool - Caution Flags & Reducing Veteran Risk in School Selection  
+*Booz Allen: Amy Knox, Cindy Cruz*
+
+- 8 participants  
+- [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/school-comparison-tool/research/caution-flags/prototype-phase) 
 
 ### February 2020
+
+#### February 21-February 25: SSO Login Manage Benefits Pages - Alert Box Updates
+*Bridget Hapner, Martha Wilkes*
+
+- 6 participants
+- [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/sso/ux-research)
+- Themes and keywords: warning alert, minimize scrolling, consolidate information, multiple CTAs, My VA Health, Cerner, facility registration
 
 #### February 19-March 6: eBenefits Form 21-686c Add/Remove Dependents Workflows
 *Aricka Lewis, James Adams*
 
-- 15 participants 
+- 8 participants 
 - [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design/686-form-gating-0220/686-usability-research-plan.md)
 
 #### February 3-4: VA Form 22-1995 STEM Scholarship & Education Routing Wizard Usability Testing, Redux
@@ -28,10 +54,12 @@ __Please note that many links on this page reference research folders in the vet
 
 ### January 2020
 
-#### January 30 - February 3: Yellow Ribbon MVP
+#### January 30 - February 3: Yellow Ribbon - Find Participating Schools MVP
 *Public Websites, Liz Lantz*
 - 12 participants (12 scheduled, 2 no show)
-- Research folder: https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/public-websites/yellow-ribbon-mvp/research
+- [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/public-websites/yellow-ribbon-mvp/research)
+
+**Keywords:** Yellow Ribbon program, benefits comprehension, user search behaviors, search results, education benefits, understanding of benefits, awareness of benefits, tabular data, tables, cards, comparison lists. 
 
 #### January 28 - 29: STEM Scholarship Education Routing 
 *BAH: Amy Knox, Theresa McMurdo*
@@ -85,11 +113,6 @@ Research folder: https://github.com/department-of-veterans-affairs/va.gov-team/t
 *Lauren Alexanderson*
 - 30 participants 
 - Research Plan 
-
-#### December 6 - 13: Medical Device Tool Discovery 
-*Riley Orr, Rebecca Walsh*
-- 20 participants
-- [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/medical-device-tool/research/discovery-nov19/research-plan.md) 
 
 #### December 5 - 12: Medical Device Tool Discovery
 *AdHoc: Rebecca Walsh, Amida: Riley Orr*
@@ -171,6 +194,10 @@ Research folder: https://github.com/department-of-veterans-affairs/va.gov-team/t
 - 10 participants
 - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/discovery-research/UAT/research-plan.md)
 
+#### Early September 2019
+*Authenticated experience: Samara Strauss*
+- [Personalization 2.0 research summary](https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Identity/Personalization/Personalization%202.0/Discovery%20%26%20Research/Personalization%202.0%20Discovery%20Summary%20%26%20Strategy.md)
+
 ### August 2019
 
 #### August 27 - 30: CARMA Caregiver Discovery **
@@ -215,10 +242,9 @@ _VA.gov CMS team: Lapedra Tolson_
 - 8-10 participants
 - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/colmery-act-2019/research/sec-107/gibct-107-research-plan-round-3.md)
 
-
-#### Auguts 5 - 16: Personalization 2.0 Separating Service Member Interviews **
+#### August 5 - 16: Personalization 2.0 Separating Service Member Interviews **
 - 5 participants 
-- Research Plan
+- [Research Folder](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Identity/Personalization/Personalization%202.0/Discovery%20%26%20Research/Service%20Member%20Interviews)
 
 #### August 5 - 12: VSP Onboarding - Round 2 (VSA) **
 *VSP Platform Support: Layla Soileau*
@@ -235,7 +261,6 @@ _VA.gov CMS team: Lapedra Tolson_
 - 8 participants
 - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/jul-2019/research-plan-unicorns-526-automation.md)
 
-
 #### July 9 - 10: GIBCT 107 Remote Moderated Usability Testing **
 *Booz Allen: Amy Knox, Theresa McMurdo*
 - 10 participants
@@ -248,7 +273,7 @@ _VA.gov CMS team: Lapedra Tolson_
 #### July 8-12: Dashboard 2.0 interviews
 *Dragons/Personalization: Samara Strauss*
 - 6 participants
-- Research folder
+- [Research folder](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Identity/Personalization/Personalization%202.0/Discovery%20%26%20Research/Dashboard%20interviews)
 
 #### July 8-10: Usability Research - GIBCT Colmery Sec 107 - Schools, Branches & Extensions 
 *BAH Team, Research Lead: Amy Knox, Theresa McMurdo*
@@ -363,7 +388,7 @@ _VA.gov CMS team: Meghana Khandekar, Kate Saul, Eric Chiu_
 #### April 10 – 15: HCA dashboard updates user testing
 *Dragons, Research Lead(s): Samara Strauss*
 - 5 participants
-- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application)
+- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/user-testing/dashboard-updates)
 
 ### March 2019 
 
@@ -480,8 +505,8 @@ _CMS and Website Teams, Research Leads: Jeff Barnes & Mikki Northius_
 #### January 28-February 1: Servicemember Research 
 *Ad Hoc Website Team, Research Lead: Jeff Barnes*
 - 7 Servicemembers
-- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/user-research/study-servicemembers)
-- [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/user-research/study-servicemembers/research-plan.md)
+- [Research Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/content/audience-hubs/research/service-member)
+- [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/audience-hubs/research/service-member/research-plan.md)
 
 #### January 22-27: Family & Caregiver Audience Hub Tree Test 
 *VA.gov Website Team, Research Lead: Jeff Barnes & Mikki Northius*
@@ -568,7 +593,7 @@ _VA.gov CMS team: C.M. Kennedy, Stephanie Lawrence_
 #### September 4-5: Benefits Recommendations 
 *Dragons Team | Research Lead: Samara Strauss* 
 - 6 Veterans
-- Research Folder
+- [Research Folder](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Identity/Personalization/Recommendations/Research/MVP%20Research)
 
 ### August 2018
 
@@ -582,7 +607,7 @@ _VA.gov CMS team: C.M. Kennedy, Stephanie Lawrence_
 
 *Dragons Team | Research Lead: Samara Strauss*
 - 128 participants
-- Reearch Folder
+- [Reearch Folder](https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Identity/Personalization/Recommendations/Research/MVP%20Research/Chalkmark%20Testing/Results%20Summary.md)
 
 #### August 15 - August 17: Veteran ID Card landing page - Content and design evaluation
 
@@ -595,7 +620,7 @@ _VA.gov CMS team: C.M. Kennedy, Stephanie Lawrence_
 
 *Dragons Team | Research Lead: Samara Strauss*
 - 4 service members, 2 Veterans
-- Research Folder
+- [Research Folder](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Identity/Personalization/Recommendations/Research/MVP%20Research)
 - We spoke to 4 service members and 2 veterans about their perceptions and expectations around being asked "what benefits are you interested in?"
 
 #### August 1: Handbook Project - AbleVets Community Care Locator Alpha Phase Remote Usability Testing
@@ -625,7 +650,7 @@ _VA.gov CMS team: C.M. Kennedy, Stephanie Lawrence_
 #### July 12-16: Benefits Recommendations Discovery
 *Dragons Team, research lead: Samara Strauss*
 - 6 Veterans
-- Research Folder
+- [Research Folder](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Identity/Personalization/Recommendations/Research/MVP%20Research)
 
 ### June 2018
 
@@ -670,7 +695,7 @@ _VA.gov CMS team: C.M. Kennedy, Stephanie Lawrence_
 *Nebula Project, research lead: Elissa Frankle Olinsky*
 - 4 Veterans
 - Research Folder
-- [Link and Button Usability for Assistive Devices](https://github.com/department-of-veterans-affairs/vets-website/blob/master/docs/LinksAndButtons.md)
+- [Link and Button Usability for Assistive Devices](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/research/links-and-buttons.md)
 
 #### May 29-30, 2018 - Notifications Research
 *Rainbows Team, research lead: Samara Strauss*

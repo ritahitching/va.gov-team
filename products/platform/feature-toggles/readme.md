@@ -1,4 +1,4 @@
-# Feature Toggles v0.2
+# Feature Toggles v0.3
 Feature Toggles will enable teams to test out new functionality (Applications, features, Vagov Content Pages, Metalsmith) in the VSP development, staging or production environments for a set of users. Feature toggles can be used in both vets-api and vets-website.
 
 ### Toggle can activate new functionality for:
@@ -13,28 +13,31 @@ Feature Toggles will enable teams to test out new functionality (Applications, f
 
 
 ## Product Guides\Documentation:
-- [Feature Flag Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/feature-toggles.md)
-- [Front-End feature flags Overview](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-flags/)
+- [Feature toggles documentation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-toggles/)
 
 
 ## Product Responsibility (Last updated: 1-16-20 )
 Features Toggles curently are a shared responsibility by the FE and BE Tools Teams.
-- Troubleshooting: #vsp-product-support
-- Onboarding: #vsp-product-support
-- Maintenance: #vsp-tools-fe or #vsp-tools-fe
-- Training Documents: #vsp-tools-fe or #vsp-tools-fe
-- Product Feedback or New Feature Requests: #vsp-tools-fe or #vsp-tools-fe
+- Troubleshooting: #vsf-product-support
+- Onboarding: #vsf-product-support
+- Maintenance: #vsf-product-support or #vsp-tools-fe
+- Training Documents: #vsf-product-support
+- Product Feedback or New Feature Requests: #vsf-product-support
 
 ## Examples or References of usage:
 - Direct Deposit Team used feature toggles for a % rollout - [Ticket](https://app.zenhub.com/workspaces/vsp-5cedc9cce6e3335dc5a49fc4/issues/department-of-veterans-affairs/va.gov-team/1674)
 
 ## Version Notes:
-### Release v0.2 - Sprint 11 (10-29-19)
+### Release v0.3 - Sprint 22 (04-01-2020)
+- Added sticky behavior so unauthenticated users can be locked into a particular variant by a unique ID. Built to support % rollout for the SSO Team.  [#6078](https://app.zenhub.com/workspaces/vsp-5cedc9cce6e3335dc5a49fc4/issues/department-of-veterans-affairs/va.gov-team/6078)
+- [Documentation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-toggles/) updated to correct errors reported in the #vfs-platform-support-channel
+---
+### Release v0.2 - Sprint 11 (10-29-2019)
 - Adding basic user management and logging to the Flipper Admin Portal so we can better regulate and track "who" toggled "what" and "when" [#1764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/1764)
 - Updated UI to improve the experience in setting up % of useres
-
+---
 ### Release v0.1 
-- Added the ability for VSA teams to leverage Flipper to create feature\release toggles.
+- Added the ability for VSA teams to leverage Flipper to create feature\release toggles. 
 - Added the ability for VSA teams to allow only a % of users to be affected by a feature\release toggle to help support better QA efforts, beta and UAT testing.
 
 

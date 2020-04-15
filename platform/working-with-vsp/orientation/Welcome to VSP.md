@@ -1,5 +1,3 @@
-__Please note: some links in this document point to the vets.gov-team repo.__
-
 # Welcome to the Veteran-facing Services Platform!
 
 The Veteran-facing Services Platform (VSP) team is here to give you to the tools, systems, and guidance you need to build online experiences on VA.gov that will improve Veteran's lives. As you develop your product, we’ll be your support team helping you through the VA.gov ecosystem, best practices, and processes, including the iterative cycle of ideation and strategy, user testing, launching code, and measuring results.
@@ -88,7 +86,7 @@ VSP is here to help you as you set up KPIs and integrate analytics in your code.
 
 You'll need reviews from VSP to help you make sure you're on track! [Here's what to expect, and how to request an Analytics review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/analytics/rules-of-engagement-request-review.md).
 
-<!--### Call Center-->
+<!--### Contact Center-->
 
 ### QA
 
@@ -101,7 +99,7 @@ Both manually and through automated tests, ensure your solution is doing what yo
 
 ### ATO
 
-You'll need to ensure the solution you're building has the authority to operate (ATO). [Here's what to expect, and how to request an ATO review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/security/security-review-process.md).
+You'll need to ensure the solution you're building has the authority to operate (ATO).
 
 ### Security
 

@@ -1,6 +1,4 @@
-__Please note: many links in this document point to documents in the vets.gov-team repo.__
-
-# Product Outline: Combine Profile and Account
+# Product Outline: Combine Profile and Account (Profile 2.0)
 
 ## Communications
 
@@ -20,7 +18,31 @@ __Please note: many links in this document point to documents in the vets.gov-te
 |Tze-chiu Lei | QA Analyst | tze@adhocteam.us |
 |Jen Strickland | 508/Accessibility support| jennifer.strickland@adhocteam.us |
 
-## The Problem
+## Table of Contents
+
+# Executive Summary 
+- [Problem overview](#problem-overview)
+- [User Problem Statement](#user-problem-statement)
+- [Business Goals](#business-goals)
+- [Assumptions](#assumptions)
+- [Questions](#questions)
+- [Discovery Takeaways](#discovery-takeaways)
+- [Requirements](#requirements)
+- [Solution Approach](#solution-approach)
+- [KPIs](#kpis)
+
+# Implementation Information
+- [Status](#status)
+- [Solution Narrative](#solution-narrative)
+- [How to Access and Test](#how-to-access-and-test)
+- [Error Handling](#error-handling)
+- [Service Level Objective](#service-level-objective)
+- [API Calls and Dependent Systems](#api-calls-and-dependent-systems)
+- [Design](#design)
+- [Screenshots](#screenshots)
+
+
+## Problem overview
 
 There are four main problems with the Profile/Account 1.0 approach:
 
@@ -32,7 +54,7 @@ There are four main problems with the Profile/Account 1.0 approach:
 4. **Visual design** — We have not effectively employed [the design system](https://design.va.gov/). The Profile and Account pages are designed like content pages, so adding new content has made these pages extremely lenghty and hard to scan.
 
 
-### User Goals
+### User Problem Statement
 
 **As a user, I want to quickly complete tasks like updating contact information, direct deposit information, and settings and preferences. I also want to be able to quickly view non-editable personal information**. 
 
@@ -69,6 +91,10 @@ As the authenticated experience team, we want to be able to do the following:
 5. What are the best ways to guide people to the new combined Profile/Account, and when do people need to be guided there?
 6. Is it a good idea to add multiple links to this new section in the personalized menu, or do we only need one?
 
+## Discovery Takeaways
+
+- Please see the [Personalization 2.0 discovery write-up](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/personalization%202.0/discovery-research/README.md). A summary of the requirements that came out of this are below.
+
 ## Requirements
 
 ### Goals
@@ -89,13 +115,20 @@ As the authenticated experience team, we want to be able to do the following:
 ### Out of Scope
 
 1. Adding any new features to the combined Profile/Account that aren't already in development.  
-  - Notification MVP and disability rating MVP are OK since they are already in development.
 
 ## Solution Approach
 
 ## Value Propositions
 
+1. It should be easier for veterans to find the information they expect to find in a profile section.
+2. The profile should feel more personalized, making veterans feel "seen" by the VA.
+3. This new approach should allow us to easily scale the profile as new sections are added/needed.
+
 ## KPIs
+
+- Can people find what they need more easily?
+- Can people complete tasks that were already in the profile (eg. updating contact info/direct deposit) just as easily?
+- Do we see any increases in traffic now that the Account tasks have been rolled into this page?
 
 We need to figure out how to measure the following:
 
@@ -118,13 +151,22 @@ Other metrics are qualitative:
 - **September 2019**: Initial design explorations
 - **October 2019**: Project put on hold due to other team needs.
 - **January 2010**: Project resumed. Design explorations delivered. Beginning profile refactoring.
-- **February 2020**: 
+- **February 2020**: Initial designs completed; beginning copy.
+- **March 2020**: Completing copy, beginning build, conducting user testing.
 
-## Technical Decisions
+## Solution Narrative
 
-## Product Decisions
+## How to Access and Test
 
-## Screenshots
+## Error Handling
+
+## Service Level Objective
+
+## API Calls and Dependent Systems
+
+## Design
+
+### Screenshots
 
 ### Before
 

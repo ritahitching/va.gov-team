@@ -5,7 +5,7 @@
 - Staging: staging.va.gov/track-claims (redirects to staging.va.gov/track-claims/your-claims)
 
 ## Testing
-- [How to log into staging](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/mvi-staging-users.csv)
+- [How to log into staging](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv)
 
 ## Important Keywords
 claims, claims status, compensation claim, claims and appeals, claim for compensation, claims list, check claims
@@ -16,7 +16,7 @@ Veterans can file a Disability Claim if they believe they have an injury or medi
 
 Once the Veteran submits their claim to VA, they need a way to understand where it is in VA's processing/rating journey. Claim Status is a tool that allows them to track this progress. It exists in eBenefits, and was transformed onto Vets.gov as well.
 
-It's one of the highest trafficked tools (the highest?) of VA, and it's also the thing that call center gets the most calls about - people wanting to verify or get clarity on the status of their claim.
+It's one of the highest trafficked tools (the highest?) of VA, and it's also the thing that contact center gets the most calls about - people wanting to verify or get clarity on the status of their claim.
 
 If a Veteran isn't pleased with their rating decision from VA, they can ask for a higher level of review, file an appeal, or file a supplemental claim. Appeals status, and supplemental claims status are tracked in this tool as well.
 

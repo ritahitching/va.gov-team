@@ -11,7 +11,7 @@
 |Name|Role|Email|
 |----|----|-----|
 |Samara Strauss |DSVA Lead| samara.strauss@va.gov |
-|??? |Product Manager| ??? |
+|Matt Shea |Product Manager| matt.shea@adhocteam.us |
 |Tressa Furner |Designer| tressa.furner@adhocteam.us |
 |Erik Hansen | FE Engineer| erik@adhocteam.us |
 |Brad Conley | FE Engineer| bconley@governmentcio.com |
@@ -103,14 +103,17 @@ We expect to see the following:
 
 ## KPIs
 
-### Objective
-- Improve the ability to manage address information and decrease the number of returned snail mail cases.
-- Decrease overall call volume to National Call Center regarding mailing address update errors. 
-- Google analytics insight will show a increase in successful mailing address submissions. 
-
-### Tracking
-- Work with the call center team team to see if there is an decrease in call in cases.
-- Work with Google Analytics team to see if the percentages are increasing in success rates for users updating their mailing addresses successful by following the error messaging provided to the user when they are not able to initially save their mailing address.
+### Objectives & Tracking
+- **Objective**: Reduce the number of veterans that report to call centers that they can't save their addresses (#[6012](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6012))
+  - **Tracking**: Work with the contact center team team to see if there is an decrease in call in cases.
+- **Objective**: Increase the amount of successful mailing address submissions.
+  - **Tracking**: Track whether we see people using suggested addresses.
+- **Objective**: Reduce the number of bad addresses being saved in VA profiles
+  - **Tracking**: Low override; high rate of using suggestions or editing/saving addresses.
+  - **Tracking**: Track the number of successful address form submissions increases.
+- **Objective**: Reduce returned mail at the VA (Note: Not sure how to measure this).
+  - **Tracking**: Not sure how to determine whether the overall rate of returned mail has decreased at the VA.
+  
 ---
 
 # Implementation Info
@@ -138,6 +141,8 @@ We expect to see the following:
 - **Jan 2020**: VA Profile delivers new endpoint; Bug fixes complete
 
 - **Feb 2020**: QA begins
+
+- **March 2020**: Launch!
 
 ## How to Access and Test
 

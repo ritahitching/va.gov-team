@@ -131,7 +131,7 @@ https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application
 - VE materials
 - Read user voice submissions
 - Veteran forums and Facebook groups
-- Call centers
+- Contact centers
 - Secretary's help line group - get access to transcripts/talk over themes
 - POTUS letters
 - Vet data (https://www.va.gov/vetdata/) for lots of stats on veteran use of VA services, demographics, etc.
@@ -150,7 +150,7 @@ https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application
 
 ### 508/Accessibility
 - Design for accessibility
-- Test with screenreaders ([see guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/mac-voiceover-guide.md) and ask for a demo if this is new to you)
+- Test with screenreaders ([see VoiceOver guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/mac-voiceover-guide.md) and [see cross-platform guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/screenreader-testing-cross-platform.md) and ask for a demo if this is new to you)
 - Consult your friendly 508 office
 - Usability test for accessibility
 - More info here: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility

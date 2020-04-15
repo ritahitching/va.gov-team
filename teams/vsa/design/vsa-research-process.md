@@ -16,7 +16,7 @@ Questions? Contact Shawna Hein.
 There is a required basic process to follow for planning and executing design research on VA.gov applications under the Veteran-facing Services Applications (VSA) contract. The Digital Experience and Product Office (DEPO, formerly DSVA) updated process document can be found  [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/research-process.md). Please read that process doc first and then read this document for more tips/details.
 
 ## <a id="setup"></a>Setup
-Create a new folder or folder structure in github under the product and/or application being researched, e.g. “UrgentCare/Research/June-2019-Usability-Test/.” This is where the research plan, conversation guide, notes, and final results should be stored. Read [this naming guide for further details](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/onboarding/repo-guidelines.md)
+Create a new folder or folder structure in github under the product and/or application being researched, e.g. “UrgentCare/Research/June-2019-Usability-Test/.” This is where the research plan, conversation guide, notes, and final results should be stored. Read [this naming guide for further details](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/repo-guidelines.md)
 
 Create a [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/research-plan-template.md) and [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md) and save them in that folder as Markdown files.
 
@@ -108,11 +108,12 @@ The maximum given to you according to our contract to synthesize research is “
 
 The following process is recommended by the VSA Design Lead:
 1. At the end of each day of research, schedule a “debrief” session where you invite all the observers to share the key takeaways from the sessions. Keep track of these key takeaways.
-    * On the right side of the Mural template, there is a Top Observation section, which is handy during the debrief sessions.  A benefit of this is team cohesion and getting folks interested in the research
+    * On the right side of the [Mural template](https://app.mural.co/template/0e63994b-bce9-4b53-8e37-b5293a2b4dac/20381d25-a5d5-4457-9893-eeb2e9cb6ff4), there is a Top Observation section, which is handy during the debrief sessions.  A benefit of this is team cohesion and getting folks interested in the research
     * Use the Top Observation section to capture what your observers feel sticks out from each session. There is no need to get a thorough synthesis at this stage.
 2. Once all the research is done and all debriefs have been conducted, create a [“topline summary”](https://portigal.com/reading-ahead-topline-summary/) that captures key themes discussed coming out of the sessions and debriefs.
-   * An example topline summary can be found [here](https://docs.google.com/document/d/1JhGb4t8jelGwD-dnjJC533ia0YNuGfo9lKuQ5V6wBUA/edit#heading=h.rmqlo4wmwa6f)
-3. Share the [topline summary](https://portigal.com/reading-ahead-topline-summary/) with necessary stakeholders that observed sessions and the team and ask if they feel anything was missing based on their observations. Also ask what topics they would like you to focus on when you conduct your detailed synthesis. 
+   * A template for your topline summary [can be found here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/design/topline-summary-template.md)
+   * Examples: [Caregiver summary](https://docs.google.com/document/d/1JhGb4t8jelGwD-dnjJC533ia0YNuGfo9lKuQ5V6wBUA/edit) and [Facility Locator Search summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/FL-Search-march2020/topline-summary.md) 
+3. The day after your last session, share the [topline summary](https://portigal.com/reading-ahead-topline-summary/) with necessary stakeholders that observed sessions and the team and ask if they feel anything was missing based on their observations. Also ask what topics they would like you to focus on when you conduct your detailed synthesis. 
 Note: Caveat the topline summary by saying that detailed synthesis has not yet been done, so things may change in the final report.
 4. Synthesize your research. 
    * To quickly synthesize, go through all the notes files and recordings files as needed and flesh out your topline summary in the following way:
@@ -125,12 +126,14 @@ Note: Caveat the topline summary by saying that detailed synthesis has not yet b
       *	Here’s an example: [sample of this from my Master’s thesis](https://docs.google.com/spreadsheets/d/1ngx67-7vvVPeIZYgjX8pTP8w0aEED6I1lz_wJY6wR5Q/edit#gid=210944681) 
       *	You can also do more standard affinity-mapping style synthesis on a Miro or Mural board by putting quotes/behaviors on stickies and grouping them. 
       *	Here’s another commonly used method called [“the rainbow spreadsheet.”](https://www.smashingmagazine.com/2013/04/rainbow-spreadsheet-collaborative-ux-research-tool/) 
-5. Create your final research results. This should be a Github page (markdown file) as well as a presentation in the form of a slide deck. These should be done 6 business days after your last session. 
-   * Templates have been created for VSA for both the [github file](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/design/research-findings-template.md) and the [presentation deck](https://docs.google.com/presentation/d/1IuycCke--2jL16sMNxtIYvnFku2JmQUzB_15V-9hdqU/edit#slide=id.p1).(https://docs.google.com/presentation/d/1jRNuGqSX2FarzPwRn2YZiwIevGcDEO7u7El_ou34LwY/edit#slide=id.p1), and then exported as a PPT and attached to the findings page.
+5. Create your final research results. This should be a Github page (markdown file). This should be done within 6 business days after your last session. 
+   * You also may want to create a presentation deck if you are going to show your results to stakeholders or at a demo.
+   * Templates have been created for VSA for both the [github file](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/design/research-findings-template.md) and the [presentation deck](https://docs.google.com/presentation/d/1IuycCke--2jL16sMNxtIYvnFku2JmQUzB_15V-9hdqU/edit#slide=id.p1). 
    * Preferred format is to have your results and/or presentation list the “Top 10 insights” from the study, then dig into those insights in the next slides/sections. This allows stakeholders to quickly grasp the findings without reading the whole deck/page.   
    * Examples can be found here:  
-      * https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/login/ds-logon/research/research_brief.md
+      * https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/FL-Search-march2020/research-findings.md
       * https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/community-care/urgent-care/research/jun-2019/findings.md
+      * https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/login/ds-logon/research/research_brief.md
       * https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/hca-2.0/research/user-testing/dashboard-updates/research-summary.md
       * Results in a deck [starting on slide 18 here](https://docs.google.com/presentation/d/1aaKDRSu_pPFCxQKoP0cXeHifkmCgZHlm-ZvtgwW5SsQ/edit)
    * Keep “insights” separate from recommendations. An insight might be “Users didn’t seem to see the “Next” button on the page,” but discuss what to do about that in a separate, “Recommendations” section

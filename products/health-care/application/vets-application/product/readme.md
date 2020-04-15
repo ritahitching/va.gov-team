@@ -14,7 +14,6 @@ Veterans want to receive healthcare benefits that they're entitled to, but curre
 
 ## Points of Contact
 
-* Waffle: https://waffle.io/department-of-veterans-affairs/vets.gov-team?search=hca
 * Slack: #healthcare-app; #rainbows-team; #dragons-team
 
 |Name|Role|Email|
@@ -84,7 +83,7 @@ For more details, please see [the full product outline](hhttps://github.com/depa
 #### KPI
 ~0% (assumption - b/c people have no where to see this, and when they call in, those people don’t either)
 - Key Result (need to measure)
- 1. call center data about complaints
+ 1. contact center data about complaints
  2. conversions to LOA3 on HCA page while signed in
  3. usage of the signed-out lookup
 

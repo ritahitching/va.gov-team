@@ -1,8 +1,8 @@
 ---
 name: Usability Testing Prep
-about: Request Usability Testing Prep
+about: Request Usability Testing Prep Review
 title: Usability Testing Prep [Feature-Name]
-labels: product support, content-ia-team
+labels: product support, content-ia-team, collaboration-cycle
 assignees: andreahewitt-odd, meganhkelley
 
 ---

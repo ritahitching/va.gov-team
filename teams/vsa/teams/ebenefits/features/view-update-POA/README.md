@@ -1,9 +1,8 @@
-__Please note: some links in this document point to the vets.gov-team repo.__
-
 # View and Update Representative
 
 - GitHub Label: [vsa-ebenefits](https://github.com/department-of-veterans-affairs/va.gov-team/#workspaces/vft-59c95ae5fda7577a9b3184f8/board?labels=vsa-ebenefits&repos=133843125&showPipelineDescriptions=false)
 - Slack channel: #vsa-ebenefits
+- Staging EBN link: https://sqa.eauth.va.gov/ebenefits/representative
 - va.gov link: tbd
 
 ## WIP
@@ -53,12 +52,12 @@ TBD
 ## Assumptions
 
 - Product will use existing prefill integrations to pre-populate known information
-- Product will use new (to us) BGS or BIP endpoints as EVSS is being deprecated
+- Product will use BGS or BIP endpoints as EVSS is being deprecated
 - More as per discovery
 
 ## Requirements and Constraints
 
-- A logged in LOA3-proofed Veteran should be able to submit a 686c, and possible a 674, depending on existing functionality
+- A logged in LOA3-proofed Veteran should be able to submit a 21-22 or 21-22a.
 - Is it necessary that the forms be PDFed and uploaded to eFolder? Need research.
 - TODO: Add more
 
@@ -74,13 +73,9 @@ TBD
 
 ### Business Value
 
-1. Reduce the burden on administrative professionals significantly by providing them fact-checked information directly from VA partner systems
-2. Reduce mail processing costs
-TBD
+1. Sunset EBN
 
-## KPIs
 
-TBD
 
 ---
 
@@ -88,8 +83,11 @@ TBD
 
 ## Status
 
-**Nov 1 2019**
-- Pre-discovery
+**Nov 1 2019**  
+- Pre-discovery  
+
+**March 24, 2020**  
+- Kickoff with platform  
 
 ## Solution Narrative
 - TBD
@@ -103,20 +101,11 @@ TBD
 - Design Lead: 
 - Eng Lead:
 - VA Web Comms Partner:
-- VA Call Center Partner(s):
+- VA Contact Center Partner(s):
 - Production Testing Partner(s):
 - Designer(s):
 - Content Writer(s):
 
-### API Team
-- Product and Project: 
-- Front-end Engineer(s):
-- Back-end Engineer(s):
-
-### Veteran Facing UX Team
-- Product and Project:
-- Front-end Engineer(s):
-- Back-end Engineer(s):
 
 
 `*` = approval required for launch

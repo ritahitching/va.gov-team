@@ -1,8 +1,10 @@
 # Accessibility Test Cases Template
 
-* Confirm your team has a folder in the [va.gov-team-sensitive accessibility folder](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/platform/accessibility). This private repo is a good place to store test credentials and passwords.
+* Read the [accessibility staging review processes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/staging-review-processes.md) document
+* Confirm your team has a folder in the [va.gov-team-sensitive](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/) repo. This private repo is a good place to store test credentials and passwords.
 * Copy the [accessibility test credentials template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/accessibility-test-credentials-template.md) and this test case template into your team folder.
 * Enter your unique product/feature data into the copied documents before requesting a [staging review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/vsp-collaboration-cycle/vsp-collaboration-cycle.md#staging-review) with VSP.
+* Include links to your test credentials and test plan in your staging review.
 
 ## Automated testing (required)
 
@@ -10,7 +12,9 @@ This will be the automated tests teams must run before requesting a staging acce
 
 ### Scan with axe browser plugin (required)
 
-TODO: Add image from TestRail
+![Axe plugin for Chrome dev tools](https://user-images.githubusercontent.com/934879/76459202-a8d4f780-63d3-11ea-8ef6-aaec0a2482ba.jpg)
+
+---
 
 **Steps to test:**
 
@@ -47,7 +51,9 @@ This will be the automated tests teams should run before requesting a staging ac
 
 ### Scan with axe-coconut (recommended)
 
-TODO: Add image from TestRail
+![Axe-coconut plugin for Chrome dev tools](https://user-images.githubusercontent.com/934879/76459245-bd18f480-63d3-11ea-95b2-2072ed374e8f.jpg)
+
+---
 
 **Steps to test:**
 
@@ -63,6 +69,10 @@ TODO: Add image from TestRail
 ---
 
 ### Visually scan with WAVE (recommended)
+
+![WAVE plugin summary pane](https://user-images.githubusercontent.com/934879/76459466-27319980-63d4-11ea-8ed1-9caa79f31498.jpg)
+
+---
 
 **Steps to test:**
 
@@ -163,7 +173,8 @@ All pages and user flows (forms, data entry, navigation, user interface) must be
 
 All [happy path user flows or pages](https://en.wikipedia.org/wiki/Happy_path) should be passed through with **VoiceOver for MacOS** or **NVDA (open-source) for Windows**. This is meant to be a quick pass to catch difficult or incomplete user interactions.
 
-* [VSP MacOS VoiceOver Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/mac-voiceover-guide.md)
+* [MacOS VoiceOver Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/mac-voiceover-guide.md)
+* [Cross-Platform Screen Reader Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/screenreader-testing-cross-platform.md)
 * [WebAIM: Using NVDA to Evaluate Web Accessibility](https://webaim.org/articles/nvda/)
 * [NVDA Download](https://www.nvaccess.org/download/)
 * [NVDA Focus Plugin - recommended](https://addons.nvda-project.org/addons/focusHighlight.en.html)

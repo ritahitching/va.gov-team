@@ -1,5 +1,7 @@
 # Yellow Ribbon MVP Product Outline
 
+Staging: https://staging.va.gov/education/yellow-ribbon-participating-schools/
+
 Last updated February 19, 2020
 
 ## POCs
@@ -11,7 +13,6 @@ Last updated February 19, 2020
 | Name          | Role                                          |
 | ------------- | --------------------------------------------- |
 | Jennifer Lee  | Public Websites Product Owner                 |
-| Aruna Kucherlapati  | Product Manager                         |
 | Liz Lantz     | Designer/Researcher                           |
 | Nick Sullivan | FE Engineer                                   |
 | Kelson Adams  | FE Engineer                                   |
@@ -36,7 +37,7 @@ Last updated February 19, 2020
 - [Discovery Takeaways](#discovery-takeaways)
 - [Decisions](#decisions)
 - [The Plan](#the-plan)
-- [KPIs](#kpis)
+- [KPIs](#KPIs-and-misc-metrics)
 
 # Implementation Information
 
@@ -55,7 +56,7 @@ Last updated February 19, 2020
 
 To provide Yellow Ribbon. (YR) participating school information as more user-friendly content than the current experience of 50+ manual table pages.  The current experience exists as it does today because there is no single source of Yellow Ribbon data.
 
-Our MVP will be a single-page application that leverages an existing API (GI Data Service) and allows users to search for YR schools based on relevant critera.
+Our MVP will be a single-page application that leverages an existing API (GI Data Service) and allows users to search for YR schools based on relevant criteria.
 
 ## User Problem Statement
 
@@ -135,6 +136,11 @@ As a Yellow Ribbon data producer, I want to submit timely up-to-date Yellow Ribb
 - Our MVP will stand alone rather than on the current Yellow Ribbon hub page
 - [IA Recommendations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/ia-reviews/websites-yellow-ribbon.md) from VSP available as of 2/19/20
 - [History of design decisions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/yellow-ribbon-mvp/yellow-ribbon-design-decisions.md) available to review
+- For the first year, provide a PDF spreadsheet link to the upcoming school year information on our tool landing page
+  - Depends on Janice and Joe providing the consolidated list of new/updated school info as a spreadsheet
+  - Ask them to provide this no later than first week of June, so we have at least 2 days to PDF it and add the link to the tool landing page
+  - Link would be published mid-June, and we would remove the link on July 31/Aug1 -- when the 'upcoming' school info becomes 'current' in GIDS
+- Prior years info: We will not provide links to these in the modernized experience. We will not redirect the legacy page that has the repository of old years: https://www.benefits.va.gov/gibill/yellow_ribbon/yellow_ribbon_info_schools.asp
 
 #### Pending Decisions
 
@@ -156,7 +162,9 @@ As a Yellow Ribbon data producer, I want to submit timely up-to-date Yellow Ribb
 
 
 
-## KPIs
+## KPIs and misc metrics
+
+- [Number of people visiting YR pages per month](https://analytics.google.com/analytics/web/#/report/content-pages/a50123418w177519031p176188361/explorer-table.filter=benefits.va.gov~2Fgibill~2Fyellow_ribbon~2F&explorer-table.plotKeys=%5B%5D&explorer-table.rowStart=0&explorer-table.rowCount=500&explorer-graphOptions.selected=analytics.nthMonth/)
 
 ### Objective
 

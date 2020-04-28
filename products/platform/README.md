@@ -23,14 +23,6 @@
 ---
 
 ## Changelog
-### Sprint 24 (04-15-2020 - 04-28-2020)
-
-- [External Service Monitoring](./external-service-monitoring) - v0.1
-  - Implement baseline SLI definitions 
-  - Document and update Grafana dashboards related to external services
-  - Draft initial SLO documents for most external services
-  - Reorganize and rename product outline and folder documents
-
 ### Sprint 23 (04-02-2020 - 4-14-2020)
 - [Automated Code Quality](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/platform/automated_code_quality) - v1.2
   - ESLint - Publish and setup the second set of standard linting rules for [trial](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/frontend/eslint/new-rule-release-notes.md) for the next 4 weeks. Feedback from VFS teams will be collected during this period. Please use the tag @frontend-review-group or message any of the front-end tools team members in Slack and provide us with your feedback.
